@@ -3,7 +3,6 @@ body {
     font-family: "JetBrains Mono", sans-serif;
     color: #FFFFFF;
     font-weight: lighter;
-    text-align: center;
 }
 
 a {
@@ -25,4 +24,8 @@ a {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-family: 'JetBrains Mono', sans-serif;
+}
+
+h1 {
+    text-align: center;
 }
