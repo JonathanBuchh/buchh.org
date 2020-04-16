@@ -1,16 +1,32 @@
 body {
-    background-color: white;
+    background-color: #34363A;
     font-family: "Raleway", sans-serif;
-    color: #34363A;
+    color: white;
     font-weight: 600;
 }
 
-a {
+.share a {
+    background: #34363A;
+    border: 3px solid white;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.share a:hover {
+    background: white;
+    border: 3px solid white;
     color: #34363A;
+    border-radius: 3px;
+    padding: 3px;
 }
 
 h1 {
+    font-family: Raleway, sans-serif;
     text-align: center;
-    border: 3px solid #34363A;
+    border: 3px solid white;
     border-radius: 7px;
+    color: white;
 }
