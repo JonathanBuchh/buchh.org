@@ -1,8 +1,10 @@
-body {
+
+* {
     background-color: #34363A;
     font-family: "Raleway", sans-serif;
     color: white;
     font-weight: 600;
+    box-sizing: border-box;
 }
 
 .share a {
@@ -21,6 +23,7 @@ body {
     color: #34363A;
     border-radius: 3px;
     padding: 3px;
+    text-decoration: none;
 }
 
 h1 {
