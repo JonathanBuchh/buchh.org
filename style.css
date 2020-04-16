@@ -1,14 +1,16 @@
 body {
-    background-color: #34363A;
+    background-color: white;
     font-family: "Raleway", sans-serif;
-    color: #FFFFFF;
+    color: #34363A;
     font-weight: 600;
 }
 
 a {
-    color: #FFFFFF;
+    color: #34363A;
 }
 
 h1 {
     text-align: center;
+    border: 3px solid #34363A;
+    border-radius: 7px;
 }
