@@ -1,7 +1,7 @@
 
 * {
     background-color: white;
-    font-family: Raleway, sans-serif;
+    font-family: "San Francisco", sans-serif;
     color: rgb(53, 54, 58);
     font-weight: 600;
     box-sizing: border-box;
@@ -30,7 +30,7 @@
 }
 
 h1 {
-    font-family: raleway, sans-serif;
+    font-family: "San Francisco", sans-serif;
     border: 2px solid rgb(53, 54, 58);
     border-radius: 7px;
     color: white;
