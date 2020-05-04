@@ -1,8 +1,13 @@
 
+@font-face{
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
 * {
     background-color: white;
-    font-family: "San Francisco", sans-serif;
     color: rgb(53, 54, 58);
+    font-family: "San Francisco", sans-serif;
     font-weight: 600;
     box-sizing: border-box;
 }
@@ -30,7 +35,6 @@
 }
 
 h1 {
-    font-family: "San Francisco", sans-serif;
     border: 2px solid rgb(53, 54, 58);
     border-radius: 7px;
     color: white;
