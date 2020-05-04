@@ -6,15 +6,15 @@
 }
 * {
     background-color: white;
-    color: rgb(53, 54, 58);
-    font-family: "San Francisco", sans-serif;
+    color: #0070C9;
+    font-family: "San Francisco", Helvetica, sans-serif;
     font-weight: 600;
     box-sizing: border-box;
 }
 
 .share a {
-    background: rgb(53, 54, 58);
-    border: 2px solid rgb(53, 54, 58);
+    background: #0070C9;
+    border: 2px solid #0070C9;
     border-radius: 3px;
     color: white;
     display: inline-block;
@@ -23,23 +23,19 @@
 }
 
 .share a:hover {
-    background: white;
-    border: 2px solid rgb(53,54,58);
+    background: #0279D0;
+    border: 2px solid #0279D0;
     border-radius: 3px;
     padding: 3px;
     text-decoration: none;
 }
 
-.share a:hover {
-    color: rgb(53,54,56);
-}
-
 h1 {
-    border: 2px solid rgb(53, 54, 58);
+    border: 2px solid #0070C9;
     border-radius: 7px;
     color: white;
     padding: 5px;
     display: inline-block;
     margin: 0 auto;
-    background-color: rgb(53, 54, 58);
+    background-color: #0070C9;
 }
