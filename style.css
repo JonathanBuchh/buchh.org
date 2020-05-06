@@ -1,9 +1,15 @@
 
 @font-face{
-    font-family: "San Francisco";
+    font-family: "SF PRO";
     font-weight: 400;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
+@font-face {
+    font-family: "SF Display";
+    font-weight: 700;
+    src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+
+}
+
 * {
     background-color: white;
     color: #0070C9;
@@ -38,4 +44,10 @@ h1 {
     display: inline-block;
     margin: 0 auto;
     background-color: #0070C9;
+}
+.juice{
+    font-family: "sf display", sans-serif;
+    color: #E23800;
+    background-color: #F6F3EA;
+    font-weight: 900;
 }
