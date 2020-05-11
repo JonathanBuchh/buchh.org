@@ -1,53 +1,51 @@
-
-@font-face{
-    font-family: "SF PRO";
-    font-weight: 400;
+@font-face {
+  font-family: "SF PRO";
+  font-weight: 400;
 }
 @font-face {
-    font-family: "SF Display";
-    font-weight: 700;
-    src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
-
+  font-family: "SF Display";
+  font-weight: 700;
+  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
 }
 
 * {
-    background-color: white;
-    color: #0070C9;
-    font-family: "San Francisco", Helvetica, sans-serif;
-    font-weight: 600;
-    box-sizing: border-box;
+  background-color: white;
+  color: #0070c9;
+  font-family: "San Francisco", Helvetica, sans-serif;
+  font-weight: 600;
+  box-sizing: border-box;
 }
 
 .share a {
-    background: #0070C9;
-    border: 2px solid #0070C9;
-    border-radius: 6px;
-    color: white;
-    display: inline-block;
-    text-decoration: none;
-    padding: 3px;
+  background: #0070c9;
+  border: 2px solid #0070c9;
+  border-radius: 6px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 3px;
 }
 
 .share a:hover {
-    background: #0279D0;
-    border: 2px solid #0279D0;
-    border-radius: 6px;
-    padding: 3px;
-    text-decoration: none;
+  background: #0279d0;
+  border: 2px solid #0279d0;
+  border-radius: 6px;
+  padding: 3px;
+  text-decoration: none;
 }
 
 h1 {
-    border: 2px solid #0070C9;
-    border-radius: 7px;
-    color: white;
-    padding: 5px;
-    display: inline-block;
-    margin: 0 auto;
-    background-color: #0070C9;
+  border: 2px solid #0070c9;
+  border-radius: 7px;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #0070c9;
 }
-.juice{
-    font-family: "sf display", sans-serif;
-    color: #FA6B41;
-    background-color: #F6F3EA;
-    font-weight: 900;
+.juice {
+  font-family: "sf display", sans-serif;
+  color: #fa6b41;
+  background-color: #f6f3ea;
+  font-weight: 900;
 }
