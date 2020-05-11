@@ -1,3 +1,3 @@
-# jonathanbuchholz.github.io
+# jonathanbuchholz.com
 
 This is my personal website.
