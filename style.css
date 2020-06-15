@@ -60,8 +60,8 @@
 
 * {
   font-family: "Segoe UI", Helvetica, sans-serif;
-  background-color: #fc5200;
-  color: white;
+  background-color: #000000;
+  color: #f4f4f4;
   border: 2px, solid, #000000;
   border-radius: 6px;
   font-weight: 600;
@@ -72,7 +72,7 @@
   background: #0070c9;
   border: 2px solid #0070c9;
   border-radius: 6px;
-  color: white;
+  color: #f4f4f4;
   display: inline-block;
   text-decoration: none;
   padding: 3px;
