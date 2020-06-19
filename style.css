@@ -1,3 +1,13 @@
+* {
+  font-family: "Segoe UI", Helvetica, sans-serif;
+  background-color: #000000;
+  color: #f4f4f4;
+  border: 2px, solid, #000000;
+  border-radius: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
 @font-face {
   font-family: "SF PRO";
   font-weight: 400;
@@ -56,32 +66,4 @@
   font-family: "SF Display";
   font-weight: 700;
   src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
-}
-
-* {
-  font-family: "Segoe UI", Helvetica, sans-serif;
-  background-color: #000000;
-  color: #f4f4f4;
-  border: 2px, solid, #000000;
-  border-radius: 6px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.share a {
-  background: #0070c9;
-  border: 2px solid #0070c9;
-  border-radius: 6px;
-  color: #f4f4f4;
-  display: inline-block;
-  text-decoration: none;
-  padding: 3px;
-}
-
-.share a:hover {
-  background: #0279d0;
-  border: 2px solid #0279d0;
-  border-radius: 6px;
-  padding: 3px;
-  text-decoration: none;
 }
