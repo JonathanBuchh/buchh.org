@@ -10,12 +10,12 @@
 
 #lenses {
   padding: 0px;
-  color: #fc2256;
+  color: #e1306c;
   text-decoration: none;
 }
 
 #lenses:hover {
-  color: #fc2256;
+  color: #e1306c;
   text-decoration: underline;
 }
 
@@ -25,13 +25,16 @@
 }
 
 .fab {
-  font-size: 26px;
+  font-size: 25px;
   margin: 0 10px 0 0;
   color: #ffffff;
   text-decoration: none;
   padding: 9px;
   border-radius: 100%;
   background: #ffffff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
 }
 
 .fab:hover {
@@ -39,17 +42,18 @@
 }
 
 .fa-instagram {
-  color: #e1306c;
+  background-color: #e1306c;
 }
 
 .fa-twitter {
-  color: #1da1f2;
+  background-color: #1da1f2;
 }
 
 .fa-strava {
-  color: #fc4c02;
+  background-color: #fc4c02;
 }
 
 .fa-github {
+  background-color: #ffffff;
   color: #000000;
 }
