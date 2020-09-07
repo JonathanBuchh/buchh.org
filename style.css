@@ -6,6 +6,7 @@
   border-radius: 14px;
   font-weight: 600;
   text-align: left;
+  padding: 10px;
 }
 
 #headshot {
@@ -13,18 +14,31 @@
   border-radius: 100%;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: left;
+.fab {
+  font-size: 26px;
+  margin: 0 10px 0 0;
+  color: #ffffff;
   text-decoration: none;
-  background: #ffffff;
-  border-radius: 100%;
 }
 
-.fa:hover {
+.fab:hover {
   opacity: 0.7;
+}
+
+.fa-instagram {
+  color: #e1306c;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-strava {
+  color: #fc4c02;
+}
+
+.fa-github {
+  color: #ffffff;
 }
 
 @font-face {
