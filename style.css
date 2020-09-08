@@ -8,29 +8,18 @@
   text-align: left;
 }
 
-#lenses {
-  padding: 0px;
-  color: #e1306c;
-  text-decoration: none;
-}
-
-#lenses:hover {
-  color: #e1306c;
-  text-decoration: underline;
-}
-
 #headshot {
   width: 175px;
   border-radius: 100%;
 }
 
 h1 {
-  max-width: 6in;
+  max-width: 7in;
   font-size: 50px;
 }
 
 p {
-  max-width: 6in;
+  max-width: 7in;
 }
 
 .fab {
@@ -65,4 +54,28 @@ p {
 .fa-github {
   background-color: #ffffff;
   color: #000000;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: -2px;
+  right: 0;
+  background: #fff;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+.link:hover:after {
+  width: 100%;
+  left: 0;
+  background: #fff;
 }
