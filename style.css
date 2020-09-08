@@ -59,6 +59,7 @@ p {
 .link {
   position: relative;
   text-decoration: none;
+  color: #e1306c;
 }
 
 .link:after {
@@ -69,7 +70,7 @@ p {
   display: block;
   margin-top: -2px;
   right: 0;
-  background: #fff;
+  background: #e1306c;
   transition: width 0.2s ease;
   -webkit-transition: width 0.2s ease;
 }
@@ -77,5 +78,5 @@ p {
 .link:hover:after {
   width: 100%;
   left: 0;
-  background: #fff;
+  background: #e1306c;
 }
