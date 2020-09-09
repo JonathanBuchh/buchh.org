@@ -22,7 +22,8 @@ p {
   max-width: 7in;
 }
 
-.fab {
+.fab,
+.far {
   font-size: 25px;
   margin: 0 10px 0 0;
   color: #ffffff;
@@ -35,7 +36,8 @@ p {
   text-align: center;
 }
 
-.fab:hover {
+.fab:hover,
+.far:hover {
   opacity: 0.7;
 }
 
@@ -54,6 +56,11 @@ p {
 .fa-github {
   background-color: #ffffff;
   color: #000000;
+}
+
+.fa-envelope {
+  background-color: #d44637;
+  color: #ffffff;
 }
 
 .link {
