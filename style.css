@@ -1,14 +1,21 @@
 @font-face {
   src: url(fonts/GothamBook.ttf);
   font-family: Gotham;
+  unicode-range: U+0000-00FF;
 }
 
-* {
+@font-face {
+  font-family: "Gotham";
+  src: url(fonts/GothamBookm.woff2) format('woff2'), url(fonts/GothamBook.woff) format('woff'), url(fonts/GothamBold.ttf) format('truetype');
+}
+
+body{
   font-family: Gotham, Helvetica, sans-serif;
   background-color: #000;
   color: #fff;
   font-weight: 600;
   text-align: left;
+  max-width: 7in;
 }
 
 #headshot {
@@ -17,12 +24,16 @@
 }
 
 h1 {
-  max-width: 7in;
   font-size: 50px;
 }
 
-p {
-  max-width: 7in;
+a {
+  color: #e1306c;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 /* body{
@@ -69,9 +80,7 @@ p {
   background-color: #ffffff;
   color: #000000;
 }
-.link{
-  color: #e1306c;
-}
+
 /*
 .link {
   position: absolute;
