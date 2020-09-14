@@ -27,12 +27,12 @@ h1 {
   font-size: 50px;
 }
 
-a {
+.link {
   color: #e1306c;
   text-decoration: none;
 }
 
-a:hover{
+.link:hover{
   text-decoration: underline;
 }
 
