@@ -6,12 +6,14 @@
 
 @font-face {
   font-family: "Gotham";
-  src: url(fonts/GothamBookm.woff2) format('woff2'), url(fonts/GothamBook.woff) format('woff'), url(fonts/GothamBold.ttf) format('truetype');
+  src: url(fonts/GothamBookm.woff2) format("woff2"),
+    url(fonts/GothamBook.woff) format("woff"),
+    url(fonts/GothamBold.ttf) format("truetype");
 }
 
-body{
+body {
   font-family: Gotham, Helvetica, sans-serif;
-  background-color: #000;
+  background-color: #34373a;
   color: #fff;
   font-weight: 600;
   text-align: left;
@@ -32,23 +34,19 @@ h1 {
   text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
   text-decoration: underline;
 }
-
-/* body{
-  background: #d8d8d8;
-} */
 
 .fab,
 .far {
   font-size: 25px;
   margin: 0 10px 0 0;
-  color: #ffffff;
+  color: #34373a;
   text-decoration: none;
   padding: 9px;
   border-radius: 100%;
-  background: #ffffff;
+  background: #fff;
   width: 25px;
   height: 25px;
   text-align: center;
@@ -56,71 +54,31 @@ h1 {
 
 .fab:hover,
 .far:hover {
-  opacity: 0.7;
-}
-
-.fa-instagram {
-  background-color: #e1306c;
-}
-
-.fa-twitter {
-  background-color: #1da1f2;
-}
-
-.fa-strava {
-  background-color: #fc4c02;
-}
-
-.fa-github {
-  background-color: #ffffff;
-  color: #000000;
+  transition: 0.5s;
+  color: #fff;
 }
 
 .fa-envelope {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #fff;
+  color: #444;
 }
 
-/*
-.link {
-  position: absolute;
-  z-index: 5;
-  text-align: center;
-  top: 100%;
-  left: 0;
-  color: #e1306c;
-  width: 100%;
-  margin: 0px;
-  padding: 5px 4px;
-  border-radius: 3px;
-  transition: opacity 0.3s;
-  opacity: 0;
-  pointer-events: none;
-  position: relative;
-  text-decoration: none;
+.fa-envelope:hover {
+  background-color: #d44638;
 }
 
-.link:hover {
-  pointer-events: auto;
-  opacity: 1;
-  box-shadow: 0px 6px 6px 0px rgba(12, 12, 12, 0.3);
-}
-/*
-.link:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  display: block;
-  margin-top: -2px;
-  right: 0;
-  background: #e1306c;
-  transition: width 0.2s ease;
-  -webkit-transition: width 0.2s ease;
+.fa-instagram:hover {
+  background-color: #e1306c;
 }
 
-.link:hover:after {
-  width: 100%;
-  left: 0;
-  background: #e1306c;
+.fa-twitter:hover {
+  background-color: #1da1f2;
+}
+
+.fa-github:hover {
+  background-color: #28a745;
+}
+
+.fa-strava:hover {
+  background-color: #fc4c02;
 }
