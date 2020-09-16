@@ -1,26 +1,26 @@
 @font-face {
   font-family: "Gotham";
-  src: url("fonts/GothamBook.woff2") format("woff2"),
-    url("fonts/Gothambook.woff") format("woff"),
-    url("fonts/GothamBooke.ttf") format("truetype");
+  src: url(fonts/GothamBook.woff2) format("woff2"),
+    url(fonts/GothamBook.woff) format("woff"),
+    url(fonts/GothamBook.ttf) format("truetype");
 }
 
 * {
   margin: 0;
-  color: #fff;
+  color: #000;
 }
 html,
 body {
   height: 100%;
+  font-family: "Gotham";
 }
 
 h1 {
   font-size: 50px;
 }
 
-body {
+/*body {
   background-color: #f44336;
-  font-family: "Gotham", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +80,7 @@ body {
     background-color: #f44336;
   }
 }
-
+*/
 .link {
   color: #34373a;
   text-decoration: none;
