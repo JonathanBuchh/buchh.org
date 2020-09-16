@@ -18,9 +18,14 @@ html,
 body {
   height: 100%;
 }
+
+h1 {
+  font-size: 50px;
+}
+
 body {
   background-color: #f44336;
-  font-family: "Lato", sans-serif;
+  font-family: "Gotham", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,15 +84,6 @@ body {
   100% {
     background-color: #f44336;
   }
-}
-h1,
-h2,
-a {
-  color: white;
-  font-weight: 100;
-}
-h1 {
-  font-size: 100px;
 }
 
 .link {
