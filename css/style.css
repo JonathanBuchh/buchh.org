@@ -1,14 +1,14 @@
 @font-face {
-  src: local(fonts/GothamBook.ttf);
-  font-family: "Gotham";
+  src: url(fonts/GothamBook.ttf);
+  font-family: Gotham;
   unicode-range: U+0000-00FF;
 }
 
 @font-face {
   font-family: "Gotham";
-  src: local(fonts/GothamBookm.woff2) format("woff2"),
-    local(fonts/GothamBook.woff) format("woff"),
-    local(fonts/GothamBold.ttf) format("truetype");
+  src: url(fonts/GothamBookm.woff2) format("woff2"),
+    url(fonts/GothamBook.woff) format("woff"),
+    url(fonts/GothamBold.ttf) format("truetype");
 }
 
 body {
