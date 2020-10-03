@@ -25,11 +25,15 @@ h1 {
 
 .link {
   color: #e1306c;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #e1306c;
 }
 
 .link:hover {
+  color: #fff;
+  transition: 0.25s;
   text-decoration: underline;
+  text-decoration-color: #e1306c;
 }
 
 .fab,
@@ -48,7 +52,7 @@ h1 {
 
 .fab:hover,
 .far:hover {
-  transition: 0.5s;
+  transition: 0.25s;
   color: #fff;
 }
 
