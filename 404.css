@@ -82,9 +82,9 @@ body {
 }
 
 .link {
-  color: #e1306c;
+  color: #fff;
   text-decoration: underline;
-  text-decoration-color: #e1306c;
+  text-decoration-color: #fff;
 }
 
 .link:hover {
