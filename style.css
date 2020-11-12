@@ -241,9 +241,6 @@ li {
 
 /* for iPhone-sized devices */
 @media only screen and (max-device-width: 480px) {
-  * {
-    background-color: #000;
-  }
   #content {
     max-width: 55em;
     overflow: hidden;
