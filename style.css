@@ -3,11 +3,9 @@ This theme has been slightly modified by Leo Babauta's mnmlist.com theme.
 It is uncopyrighted–just like the original.
 Uncopyright: https://mnmlist.com/uncopyright
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 body {
   background: #fff;
-  font-family: Roboto, sans-serif;
+  font-family: Helvetica-neue, sans-serif;
   max-width: 30em;
   overflow: hidden;
   margin: auto;
@@ -37,10 +35,4 @@ a:hover {
   border-style: none none solid none;
   border-color: #c0c0c0;
   text-decoration: none;
-}
-
-script {
-  margin: 0px;
-  max-width: none;
-  overflow: visible;
 }
