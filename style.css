@@ -9,6 +9,11 @@ body {
 p {
   line-height: 1.3em;
   margin: 12px 0;
+  padding: 0px 10px 0px;
+}
+
+h1 {
+  padding: 0px 10px 0px;
 }
 
 a {
