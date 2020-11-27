@@ -1,0 +1,28 @@
+body {
+  background: #fff;
+  font-family: Helvetica-neue, Helvetica, sans-serif;
+  max-width: 32.5em;
+  overflow: hidden;
+  margin: auto;
+}
+
+p {
+  line-height: 1.3em;
+  margin: 12px 0;
+}
+
+a {
+  color: #303030;
+  text-decoration: none;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  border-color: #c0c0c0;
+}
+
+a:hover {
+  background: #e7eef8;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  border-color: #c0c0c0;
+  text-decoration: none;
+}
