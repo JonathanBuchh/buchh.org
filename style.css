@@ -38,3 +38,9 @@ a:hover {
   border-color: #c0c0c0;
   text-decoration: none;
 }
+
+script {
+  margin: 0px;
+  max-width: none;
+  overflow: visible;
+}
