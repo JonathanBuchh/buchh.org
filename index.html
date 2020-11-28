@@ -24,26 +24,18 @@
       data-url="https://form.typeform.com/to/MH93Bfz9"
       style="width: 100%; height: 250px"
     ></div>
-    <script>
-      (function () {
-        var qs,
-          js,
-          q,
-          s,
-          d = document,
-          gi = d.getElementById,
-          ce = d.createElement,
-          gt = d.getElementsByTagName,
-          id = "typef_orm",
-          b = "https://embed.typeform.com/";
-        if (!gi.call(d, id)) {
-          js = ce.call(d, "script");
-          js.id = id;
-          js.src = b + "embed.js";
-          q = gt.call(d, "script")[0];
-          q.parentNode.insertBefore(js, q);
+    <script src="https://embed.typeform.com/embed.js">
+          const embedElement = document.querySelector('.target-dom-node') // NOTE: `.target-dom-node` is the target DOM element from your website or web app
+
+      typeformEmbed.makeWidget(
+        embedElement,
+        'https://developerplatform.typeform.com/to/Xc7NMh', // NOTE: Replace with your typeform URL
+        {
+          hideHeaders: true,
+          hideFooter: true,
+          opacity: 0
         }
-      })();
+      )
     </script>
   </body>
   <footer>
