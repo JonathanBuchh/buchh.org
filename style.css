@@ -31,10 +31,6 @@ a {
 
 a:hover {
   background: #e7eef8;
-  border-width: 0 0 1px 0;
-  border-style: none none solid none;
-  border-color: #c0c0c0;
-  text-decoration: none;
 }
 
 .done {
@@ -45,7 +41,6 @@ footer {
   background: #fff;
   clear: both;
   width: 100%;
-  border-color: #fff;
 }
 footer p {
   padding: 14px 0;
@@ -56,6 +51,7 @@ footer p {
 footer a {
   color: #666;
   text-decoration: none;
+  border-color: #fff;
 }
 footer a:hover {
   color: #000;
