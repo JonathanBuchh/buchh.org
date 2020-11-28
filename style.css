@@ -40,3 +40,23 @@ a:hover {
 .done {
   text-decoration: line-through;
 }
+
+footer {
+  background: #fff;
+  clear: both;
+  width: 100%;
+}
+footer p {
+  padding: 14px 0;
+  margin: 0;
+  color: #666;
+  text-align: center;
+}
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
