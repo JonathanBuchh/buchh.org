@@ -37,6 +37,6 @@ a:hover {
   text-decoration: none;
 }
 
-done {
+.done {
   text-decoration: line-through;
 }
