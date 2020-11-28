@@ -45,6 +45,7 @@ footer {
   background: #fff;
   clear: both;
   width: 100%;
+  border-color: #fff;
 }
 footer p {
   padding: 14px 0;
@@ -59,4 +60,5 @@ footer a {
 footer a:hover {
   color: #000;
   text-decoration: none;
+  background: #fff;
 }
