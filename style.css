@@ -36,3 +36,7 @@ a:hover {
   border-color: #c0c0c0;
   text-decoration: none;
 }
+
+done {
+  text-decoration: line-through;
+}
