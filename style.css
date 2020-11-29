@@ -27,7 +27,7 @@ a {
   text-decoration: none;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
-  border-color: #c0c0c0;
+  border-color: #f2f2f2;
 }
 
 a:hover {
@@ -50,7 +50,7 @@ footer p {
   text-align: center;
 }
 footer a {
-  color: #666;
+  color: #f2f2f2;
   text-decoration: none;
   border-color: #fff;
 }
