@@ -22,11 +22,11 @@ a {
   text-decoration: none;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
-  border-color: #c0c0c0;
+  border-color: #e5e5e5;
 }
 
 a:hover {
-  background: #f4f4f4;
+  background: #e5e5e5;
 }
 
 .done {
