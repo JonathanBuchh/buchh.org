@@ -13,15 +13,12 @@ p {
 }
 
 a {
-  color: #333;
+  color: #007aff;
   text-decoration: none;
-  border-width: 0 0 1px 0;
-  border-style: none none solid none;
-  border-color: #e5e5e5;
 }
 
 a:hover {
-  background: #f2f2f2;
+  text-decoration: underline;
 }
 
 .done {
@@ -30,4 +27,8 @@ a:hover {
 
 footer {
   text-align: center;
+}
+
+footer a {
+  color: #8e8e8e;
 }
