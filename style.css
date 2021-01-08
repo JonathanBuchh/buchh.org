@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .done {
   text-decoration: line-through;
 }
