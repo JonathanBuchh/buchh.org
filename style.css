@@ -17,7 +17,7 @@ p {
 }
 
 a {
-  color: #777;
+  color: #007aff;
   text-decoration: none;
 }
 
@@ -31,4 +31,8 @@ a:hover {
 
 footer {
   text-align: center;
+}
+
+footer a {
+  color: #777;
 }
