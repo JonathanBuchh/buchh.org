@@ -21,18 +21,10 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .done {
   text-decoration: line-through;
 }
 
 footer {
   text-align: center;
-}
-
-footer a {
-  color: #777;
 }
