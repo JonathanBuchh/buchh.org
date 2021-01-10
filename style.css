@@ -7,11 +7,6 @@ body {
   padding: 0px 10px 0px;
 }
 
-h1 a {
-  color: #000;
-  text-decoration: underline;
-}
-
 p {
   line-height: 1.3em;
   margin: 12px 0;
