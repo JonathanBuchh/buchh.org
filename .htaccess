@@ -1,1 +1,0 @@
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
