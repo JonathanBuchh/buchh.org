@@ -43,8 +43,7 @@ body {
 
 p, ul, li {
   font-size: large;
-  line-height: 1.1em;
-  margin: 0.4em 0;
+  line-height: 110%;
 }
 
 h1, h2, h3, h4, h5, h6{
