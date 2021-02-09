@@ -34,8 +34,7 @@
 
 body {
   background: #fff;
-  font-family: -apple-system, "Helvetica Neue", sans-serif;
-  font-family: "Crimson Pro";
+  font-family: "Crimson Pro", "Helvetica Neue", sans-serif;
   max-width: 35em;
   margin: auto;
   padding: 0px 10px 0px;
