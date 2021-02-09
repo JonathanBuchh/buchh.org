@@ -1,14 +1,54 @@
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: 'Crimson Pro';
+    src: url('fonts/CrimsonPro-VariableFont_wght.ttf') format('woff2-variations');
+    font-weight: 200 900;
+  }
+}
+
+  @supports (font-variation-settings: normal) {
+    @font-face {
+      font-family: 'Crimson Pro';
+      src: url('fonts/CrimsonPro-Italic-VariableFont_wght.ttf') format('woff2-variations');
+      font-weight: 200 900;
+      font-style: italic;
+    }
+  }
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("fonts/CrimsonPro-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("fonts/CrimsonPro-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("fonts/CrimsonPro-Medium.ttf");
+  font-weight: 500;
+}
+
 body {
   background: #fff;
   font-family: -apple-system, "Helvetica Neue", sans-serif;
+  font-family: "Crimson Pro";
   max-width: 35em;
   margin: auto;
   padding: 0px 10px 0px;
 }
 
-p {
-  line-height: 1.3em;
-  margin: 12px 0;
+p, ul, li {
+  font-size: large;
+  line-height: 1.1em;
+  margin: 0.4em 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: -apple-system, "Helvetica Neue", sans-serif;
 }
 
 a {
