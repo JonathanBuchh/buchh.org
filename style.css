@@ -1,9 +1,11 @@
-
+@font-face {
+  font-family: 'Crimson Pro';
+  src: url('CrimsonPro.ttf');
+}
 
 body {
   background: #fff;
-  /* font-family: "Crimson Pro", serif; */
-  font-family: Garmond, serif;
+  font-family: "Crimson Pro", "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   max-width: 35em;
   margin: auto;
   padding: 0px 10px 0px;
