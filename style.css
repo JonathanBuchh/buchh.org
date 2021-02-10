@@ -74,3 +74,8 @@ img {
   max-width: 250px;
   border-radius: 4%;
 }
+
+summary {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+}
