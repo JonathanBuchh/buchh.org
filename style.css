@@ -1,40 +1,7 @@
-@supports (font-variation-settings: normal) {
-  @font-face {
-    font-family: 'Crimson Pro';
-    src: url('fonts/CrimsonPro-VariableFont_wght.ttf') format('woff2-variations');
-    font-weight: 200 900;
-  }
-}
-
-  @supports (font-variation-settings: normal) {
-    @font-face {
-      font-family: 'Crimson Pro';
-      src: url('fonts/CrimsonPro-Italic-VariableFont_wght.ttf') format('woff2-variations');
-      font-weight: 200 900;
-      font-style: italic;
-    }
-  }
-
-@font-face {
-  font-family: "Crimson Pro";
-  src: url("fonts/CrimsonPro-Light.ttf");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Crimson Pro";
-  src: url("fonts/CrimsonPro-LightItalic.ttf");
-  font-weight: 300;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Crimson Pro";
-  src: url("fonts/CrimsonPro-Medium.ttf");
-  font-weight: 500;
-}
-
 body {
   background: #fff;
-  font-family: "Crimson Pro", serif;
+  /* font-family: "Crimson Pro", serif; */
+  font-family: Garmond, serif;
   max-width: 35em;
   margin: auto;
   padding: 0px 10px 0px;
@@ -46,7 +13,7 @@ p, ul, li {
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, sans-serif;
 }
 
 a {
