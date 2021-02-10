@@ -34,7 +34,7 @@
 
 body {
   background: #fff;
-  font-family: "Crimson Pro", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
   max-width: 35em;
   margin: auto;
   padding: 0px 10px 0px;
@@ -46,7 +46,7 @@ p, ul, li {
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: -apple-system, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
 }
 
 a {
