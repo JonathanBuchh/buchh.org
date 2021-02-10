@@ -46,11 +46,12 @@ img {
   border-radius: 4%;
 }
 
-summary {
-  outline: none;
+details:hover{
+  cursor: pointer;
 }
 
 summary {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
+  outline: none;
 }
