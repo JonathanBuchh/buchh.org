@@ -20,16 +20,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a {
-  color: #0a84ff;
+  color: #57C4F9;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-a:visited {
-  color: #af52de;
 }
 
 .done {
