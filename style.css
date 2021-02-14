@@ -6,13 +6,9 @@
 body {
   background: #fff;
   font-family: Duospace, Courier, serif;
-  max-width: 35em;
+  max-width: 50em;
   margin: auto;
-}
-
-p, ul, li {
-  font-size: large;
-  line-height: 110%;
+  padding: 0px 10px 0px;
 }
 
 h1, h2, h3, h4, h5, h6{
