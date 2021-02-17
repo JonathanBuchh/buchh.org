@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://jonathanbuchholz.com/sitemap.xml">
+<urlset xmlns="http://jonathanbuchholz.com/sitemap.xml">
 <url>
-  <loc>https://jonathanbuchholz.com/</loc>
+  <loc>http://jonathanbuchholz.com/</loc>
 </url>
 <url>
-  <loc>https://jonathanbuchholz.com/connect</loc>
+  <loc>http://jonathanbuchholz.com/connect</loc>
 </url>
 <url>
-  <loc>https://jonathanbuchholz.com/goals</loc>
+  <loc>http://jonathanbuchholz.com/goals</loc>
 </url>
 </urlset>
