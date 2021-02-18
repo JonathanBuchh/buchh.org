@@ -5,6 +5,8 @@
 }
 
 body {
+  background: #fff;
+  color: #000;
   font-family: Duospace, Courier, serif;
   max-width: 35em;
   margin: auto;
@@ -36,6 +38,7 @@ img {
 }
 
 a {
+  color: #0a84ff;
   text-decoration: none;
 }
 
@@ -45,17 +48,6 @@ a:hover {
 
 .done {
   text-decoration: line-through;
-}
-
-@media (prefers-color-scheme: light) {
-  body {
-    background: #fff;
-    color: #000;
-  }
-  
-  a {
-    color: #0a84ff;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
