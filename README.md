@@ -1,1 +1,2 @@
-# [jonathanbuchh.github.io](https://jonathanbuchh.github.io)
+# jonathanbuchh.github.io
+[jonathanbuchholz.com](https://jonathanbuchholz.com)
