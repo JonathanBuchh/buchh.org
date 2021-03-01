@@ -1,4 +1,2 @@
-RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME} !-d 
-RewriteCond %{REQUEST_FILENAME}\.html -f 
-RewriteRule ^(.*)$ $1.html
+RedirectMatch 301 ^/([^/]+)/([^/.]+).html$ /$1/$2/
+RedirectMatch 301 ^/([^/]+)/([^/]+)/([^/.]+).html$ /$1/$2/$3/
