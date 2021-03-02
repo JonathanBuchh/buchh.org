@@ -37,11 +37,6 @@ ul ul {
 }
 a {
   color: #000;
-  text-decoration-skip-ink: auto;
-  text-decoration:underline
-}
-a:hover {
-  text-decoration: underline
 }
 @media (prefers-color-scheme: dark) {
   body {
