@@ -1,24 +1,33 @@
 :root {
   --background: #fff;
   --text: #000;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --serif: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  --mono: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
+
 body {
   background: var(--background);
   color: var(--text);
-  margin: 0 auto;
-  line-height: 1.3;
-  font-size: 1rem;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-family: var(--serif);
   width: clamp(45ch, 50%, 75ch);
-  margin-left: auto;
-  margin-right:auto
+  margin: auto;
+  padding-bottom: 20px;
+  line-height: 1.3rem;
 }
+
 a {
   color: var(--text);
 }
+
+footer {
+  text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #000;
     --text: #fff;
   }
+  
 }
