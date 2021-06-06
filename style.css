@@ -1,9 +1,9 @@
 :root {
   --background: #fff;
   --text: #000;
-  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --serif: Charter, Georgia, Cambria, "Times New Roman", Times, serif;
-  --mono: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, "Helvetica Neue", Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+  --serif: "New York", Charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  --mono: San Francisco Mono, Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 }
 
 body {
@@ -33,5 +33,5 @@ footer {
     --background: #000;
     --text: #fff;
   }
-  
+
 }
