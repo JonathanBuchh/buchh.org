@@ -3,7 +3,7 @@
   --text: #000;
   --sans: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, "Helvetica Neue", Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
   --serif: "New York", Charter, Georgia, Cambria, "Times New Roman", Times, serif;
-  --mono: San Francisco Mono, Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  --mono: JetBrains Mono, San Francisco Mono, Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 }
 
 body {
@@ -24,6 +24,10 @@ a {
   color: var(--text);
 }
 
+blockquote {
+  font-style: italic;
+}
+
 footer {
   text-align: center;
 }
@@ -33,5 +37,4 @@ footer {
     --background: #000;
     --text: #fff;
   }
-
 }
