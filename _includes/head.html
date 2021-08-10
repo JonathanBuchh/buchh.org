@@ -1,2 +1,24 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
+{% if page.title %}
+<title>{{ site.title }} / {{ page.title }}</title>
+<meta content="{{ site.title }} / {{ page.title }}" name=twitter:title>
+{% else %}
+<title>{{ site.title }}</title>
+<meta content="{{ site.title }}" name=twitter:title>
+{% endif %}
+{% if page.description %}
+<meta content="{{page.description}}" name=description>
+<meta content="{{page.description}}" name=twitter:description>
+<meta content="{{page.description}}" name=og:description>
+{% else %}
+<meta content="{{site.description}}" name=description>
+<meta content="{{site.description}}" name=twitter:description>
+<meta content="{{site.description}}" name=og:description>
+{% endif %}
+<meta content="Jonathan Buchholz" name=author>
+<meta content=jonathanbuchh.org property=og:site_name>
+<meta content=blog property=og:type>
+<meta content=1290992982838124544 property=twitter:account_id>
+<script type=application/ld+json>{"@context": "http://schema.org","@type": "CreativeWork","author": "Jonathan Buchholz"}</script>
+<link href=https://jonathanbuchh.org/feed.xml rel=alternate type=application/rss+xml title="Jonathan Buchholz">
