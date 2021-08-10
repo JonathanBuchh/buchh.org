@@ -1,1 +1,23 @@
+title: Jonathan Buchholz
+description: The writing, musings, and all other assorted output of Jonathan Buchholz.
+url: "https://jonathanbuchh.org"
+author: Jonathan Buchholz
+twitter:
+  username: JonathanBuchh
+social:
+  name: Jonathan Buchholz
+  links:
+    - https://twitter.com/JonathanBuchh
+    - https://strava.com/athletes/jonathanbuchh
+    - mailto:jonathan@buchh.org
+
 markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+defaults:
+ -
+    scope:
+      path: ""
+    values:
+      layout: "default"
