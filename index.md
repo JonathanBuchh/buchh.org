@@ -1,17 +1,16 @@
 ---
 layout: default
+title: Jonathan Buchholz
 ---
-# Jonathan Buchholz
-
-> Last updated [[2021-08-08]].
+> Act justly, love mercy, walk humbly.
 
 I'm a junior at Thomas Jefferson High School chasing the Lord. I'm also into social justice and [tools for thought](https://numinous.productions/ttft/).
 
-Here's my [Strava](https://www.strava.com/athletes/jonathanbuchh) if you're looking for me from Instagram.
+Here is my [Strava](https://strava.com/athletes/jonathanbuchh) if you came looking for me from Instagram.
 
 ## Books
 
-## Hall of Fame
+### Hall of Fame
 
 - The Bible (Man Upstairs)
 - How to Take Smart Notes (Sönke Ahrens)
@@ -19,9 +18,9 @@ Here's my [Strava](https://www.strava.com/athletes/jonathanbuchh) if you're look
 - Not All of Us Are Saints (David Hilfiker)
 - Subliminal (Leonard Mlodinow)
 
-## Books Ranked by Year
+### Books Ranked by Year
 
-### 2021
+#### 2021
 
 1. How to Take Smart Notes (Sönke Ahrens)
 2. 1984 (George Orwell)
@@ -34,7 +33,7 @@ Here's my [Strava](https://www.strava.com/athletes/jonathanbuchh) if you're look
 9. Things Fall Apart (Chinua Achebe)
 10. Think Like a Monk (Jay Shetty)
 
-### 2020
+#### 2020
 
 1. The Bible (Man Upstairs)
 2. Subliminal (Leonard Mlodinow)
@@ -53,14 +52,14 @@ Here's my [Strava](https://www.strava.com/athletes/jonathanbuchh) if you're look
 15. The Third Door (Alex Banayan)
 16. Linchpin (Seth Godin)
 
-### 2019
+#### 2019
 
 19. The Prodigal God (Timothy Keller)
 20. Factfulness (Hans Rosling)
 21. The 4-Hour Workweek (Tim Ferriss)
 22. The Tools of Titans (Tim Ferriss)
 
-### 2018
+#### 2018
 
 1. Just Mercy (Bryan Stevenson)
 2. The Language of God (Francis Collins)

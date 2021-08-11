@@ -1,23 +1,19 @@
 <style>
 :root {
+  --sans-font: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, Helvetica Neue, Ubuntu, Roboto, Noto, Arial, sans-serif;
+  --serif-font: "New York", "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --mono-font: JetBrains Mono, San Francisco Mono, Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
   --text: #000;
-  --sans: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, Helvetica, "Helvetica Neue", Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
-  --serif: "New York", Charter, Georgia, Cambria, "Times New Roman", Times, serif;
-  --mono: JetBrains Mono, San Francisco Mono, Monaco, "Consolas", "Lucida Console", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  --background: #fff;
 }
 
 body {
   background: var(--background);
   color: var(--text);
-  font-family: var(--serif);
+  font-family: var(--sans-font);
   width: clamp(45ch, 50%, 75ch);
   margin: auto;
-  padding-bottom: 20px;
-  line-height: 1.3rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--sans);
+  line-height: 1.6;
 }
 
 a {
@@ -30,6 +26,11 @@ blockquote {
 
 footer {
   text-align: center;
+  margin-bottom: 2em;
+}
+
+form input, form button {
+  font-size: 1em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,5 +38,6 @@ footer {
     --background: #000;
     --text: #fff;
   }
+
 }
 </style>

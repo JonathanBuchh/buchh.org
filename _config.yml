@@ -2,14 +2,9 @@ title: Jonathan Buchholz
 description: The writing, musings, and assorted output of Jonathan Buchholz.
 url: "https://jonathanbuchh.org"
 author: Jonathan Buchholz
-
+include: ["node_modules"]
+exclude: []
 kramdown:
   auto_ids: false
 plugins:
   - jekyll-feed
-defaults:
- -
-    scope:
-      path: ""
-    values:
-      layout: "default"
