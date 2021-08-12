@@ -24,6 +24,7 @@
 <script type="application/ld+json">{"@context": "http://schema.org","@type": "CreativeWork","image": "{{ site.url }}/{{ image}}","author": "Jonathan Buchholz"}</script>
 {% else %}
 <meta content="{{ site.url }}/assets/portrait.jpg" name="og:image">
+<meta content="summary" name="twitter:card">
 <script type="application/ld+json">{"@context": "http://schema.org","@type": "CreativeWork","image": "{{ site.url }}/assets/portrait.jpg","author": "Jonathan Buchholz"}</script>
 {% endif %}
 <link href="{{ site.url }}/feed.xml" rel="alternate" type="application/rss+xml" title="Jonathan Buchholz">
