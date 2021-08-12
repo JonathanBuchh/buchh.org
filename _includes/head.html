@@ -2,24 +2,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% if page.title != "Jonathan Buchholz" %}
 <title>{{ page.title }} / {{ site.title }}</title>
+<meta content="{{ page.title }} / {{ site.title }}" name=og:title>
 <meta content="{{ page.title }} / {{ site.title }}" name=twitter:title>
 {% else %}
 <title>{{ site.title }}</title>
+<meta content="{{ site.title }}" name="og:title">
 <meta content="{{ site.title }}" name="twitter:title">
 {% endif %}
+<link rel="shortcut icon" href="/favicon.ico">
 {% if page.description %}
-<meta content="{{page.description}}" name="description">
-<meta content="{{page.description}}" name="twitter:description">
-<meta content="{{page.description}}" name="og:description">
+<meta content="{{ page.description }}" name="description">
+<meta content="{{ page.description }}" name="twitter:description">
 {% else %}
-<meta content="{{site.description}}" name="description">
-<meta content="{{site.description}}" name="twitter:description">
-<meta content="{{site.description}}" name="og:description">
+<meta content="{{ site.description }}" name="description">
+<meta content="{{ site.description }}" name="twitter:description">
 {% endif %}
+<meta content="jonathanbuchh.org" name="twitter:domain">
 <meta content="Jonathan Buchholz" name="author">
-<meta content=jonathanbuchh.org property="og:site_name">
-<meta content="blog" property="og:type">
-<meta content="1290992982838124544" property="twitter:account_id">
-<script type=application/ld+json>{"@context": "http://schema.org","@type": "CreativeWork","author": "Jonathan Buchholz"}</script>
+<meta content="Jonathan Buchholz" name="og:author">
+<meta content="@JonathanBuchh" name="twitter:creator">
+{% if page.image %}
+<meta content="/{{ image }}" name="og:image">
+<meta content="/{{ image }}" name="twitter:image">
+<meta content="summary_large_image" name="twitter:card">
+<script type="application/ld+json">{"@context": "http://schema.org","@type": "CreativeWork","image": "https://jonathanbuchh.org/{{ image}}","author": "Jonathan Buchholz"}</script>
+{% else %}
+<meta content="/assets/portrait.jpg" name="og:image">
+<meta content="/assets/portrait.jpg" name="twitter:image">
+<meta content="summary" name="twitter:card">
+<script type="application/ld+json">{"@context": "http://schema.org","@type": "CreativeWork","image": "https://jonathanbuchh.org/assets/portrait.jpg","author": "Jonathan Buchholz"}</script>
+{% endif %}
 <link href=https://jonathanbuchh.org/feed.xml rel=alternate type=application/rss+xml title="Jonathan Buchholz">
-<!-- if image, large twitter, else small twitter -->
