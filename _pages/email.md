@@ -8,4 +8,4 @@ If you want to be the first to know whenever I post something to this site, you 
 - No ads
 - Just content
 
-If that sounds interesting to you, you can subsctibe below:
+If that sounds interesting to you, you can subscribe below:
