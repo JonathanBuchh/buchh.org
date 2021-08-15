@@ -1,0 +1,24 @@
+{
+  "name": "jonathanbuchh.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx premature-optimizer _site/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanBuchh/jonathanbuchh.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanBuchh/jonathanbuchh.github.io/issues"
+  },
+  "homepage": "https://github.com/JonathanBuchh/jonathanbuchh.github.io#readme",
+  "dependencies": {
+    "i": "^0.3.6",
+    "premature-optimizer": "git+https://github.com/tmcw/premature-optimizer.git"
+  }
+}

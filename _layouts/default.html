@@ -9,6 +9,8 @@
     {% include header.html %}
     {{ content }}
     </main>
+    {% if page.title != "Subscribed" %}
     {% include footer.html %}
+    {% endif %}
 </body>
 </html>
