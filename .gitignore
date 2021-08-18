@@ -5,3 +5,5 @@ node_modules
 .jekyll-cache
 .jekyll-metadata
 vendor
+*.log
+*.aux
