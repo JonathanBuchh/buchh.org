@@ -1,8 +1,8 @@
 <footer>
     {% if page.title != "Email" %}
-    <label for="email">Want to hear from me when I publish new work? <a href="/email">Learn more</a>.</label>
+    <label for="email"><em>Subscribe below to <a href="/email">hear from me</a> when I publish new work.<em></label>
     {% endif %}
-    <form action="https://buttondown.email/api/emails/embed-subscribe/JonathanBuchh" method="post" target="_self" onsubmit="window.open('https://buttondown.email/JonathanBuchh', '_self')">
+    <form action="https://buttondown.email/api/emails/embed-subscribe/JonathanBuchh" method="post" target="_self" onsubmit="window.open('https://buttondown.email/JonathanBuchh')">
 	<input type="email" name="email" id="email" placeholder="Your email, please"/>
 	<button type="submit">Subscribe</button>
     </form>

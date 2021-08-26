@@ -8,8 +8,8 @@
     <main>
     {% include header.html %}
     {{ content }}
-    </main>
-    {% if page.title != "Subscribed" %}
+   </main>
+    {% if page.title != "Subscribed" and page.title != "Confirmed" %}
     {% include footer.html %}
     {% endif %}
 </body>

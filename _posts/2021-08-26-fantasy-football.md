@@ -1,0 +1,49 @@
+---
+title: Fantasy Football
+description: A beginner's guide.
+---
+I don't watch football, I don't follow football, and I don't understand America's infatuation with football. You might not think these characteristics describe someone who has played fantasy football for the past several years who has found success, playing in two championship games last year, but it's true of me. A lack of passion for _American_ football has never stopped me from falling in love with _fantasy_ football. I love drafting players, managing my (albeit fake) teams, and pretending I played a part when one of my players has a big game.
+
+This is intended to be a beginner's guide to fantasy football, something a new manager can read so they aren't embarrassed/taken advantage by their coworkers, family, or friends when added to their first fantasy football league. This guide includes the basic principles that I have been using to successfully play fantasy football.
+
+I assume some general knowledge about American football and fantasy football, such as positions and fantasy football scoring, but nothing that the [fantasy football Wikipedia page](https://en.wikipedia.org/wiki/Fantasy_football_(gridiron)) can't provide. At a basic level, you assume the role of the General Manager of a National Football League (NFL) team, comprised of NFL players from different teams. You draft a team, pick starting lineups, and earn points based on each player's performance,  competing against other teams in your league.
+
+## Drafting
+
+The draft is one of the most important parts of fantasy football, but that doesn't mean you need to spend hours researching or making a complex plan to have a good draft. 
+
+When making picks, it is paramount to evaluate a player's value compared to other players you could draft. The easiest way to do this is to compare a given player's Average Draft Position (ADP) to the current pick. If a player has an ADP of 56, it means on average, they are selected with the 56th pick. If you have the 2nd pick, you probably shouldn't pick a player with an ADP of 56 without good reason, since there should be more valuable players available. The player with an ADP of 56 should be available in later rounds. 
+
+You should be able see each player's ADP while drafting, but rankings can easily be found online.
+
+ADP is just a good rule of thumb to estimate a player's value. If you think it should be different than ADP, use your own judgment.
+
+There are a few common mistakes that beginner fantasy football managers make. The first is picking a quarterback too early. If you pick for value using ADP, you won't run into this problem. Additionally, if your league has defenses and/or kickers, many new players try to go for the best kicker or best defense. These positions don't really make a difference in the outcome of fantasy games, so don't pick either of them outside of the last two rounds. These positions are easily replaceable and aren't very reliable. Another common mistake made by new managers is picking too many players from their favorite team. While it's fine to have a few players from your favorite team, if you have too many, when those players have a bye week, you won't have many players to put in your lineup. Additionally, if that particular NFL team has a bad week, your fantasy team will suffer as well. For the same reason you diversify financial assets, you should diversify your players.
+
+Watch mock drafts if you want to see how good drafters think about each pick. These can be found online.
+
+## In-season
+
+If you want to win, you need to manage your team. The number one reason that any fantasy football manager performs poorly is not paying attention to their team. "Managing your team" means monitoring updates on your players so that you know if they'll be playing this week. It's hard to win if you have inactive players in your starting lineup.
+
+### Waiver wires
+
+While it's possible to get a great player in the later rounds of the draft, more often than not, you'll be wanting to find replacements for these players. Luckily, there is something called the waiver wire that allows you to pick up players that no one else has on their team. Rules on how the waiver wire works varies from league to league, so ask your commissioner.
+
+To pick up someone from the waiver wire, you need to drop someone on your team. You should do this if they sustain a season ending injury like an ACL tear. You can also drop a player if they're severely underperforming their expectations and you can find someone better to add to your team. In both cases, check to see what fantasy experts say about the player. Sometimes they sustain a minor to mild injury that might have them out a few games, but are good enough to keep on your bench. Other times, players just have a bad game. Just because someone didn't score very many points in your last matchup doesn't mean they shouldn't be on your team. Make sure that fantasy experts agree that a player should be dropped before you do so yourself.
+
+Many fantasy football experts post lists of good waiver wire pickups. You should read about these players before your waiver wire closes. Every year, there are a few elite players that show up out of nowhere and are available for free on the waiver wire. You don't want to miss out on the opportunity to get one of these players for free.
+
+## Trades
+
+Only trade when necessary. Estimate if you will have a net gain in points if you make a trade. Some experienced managers like to prey on new mangers and try to take advantage of them by sending them unbalanced trades. Some leagues have voting systems that prevent unfair trades from happening, but you need to be able to determine if a trade is a good deal or not yourself.
+
+### Picking lineups
+
+Believe it or not, there is some strategy in making the best lineup. If you are slated to win, put in players that are consistent. You don't need risky players that _might_ score you a lot of points. You need these types of players (often referred to as "boom or bust") when you are supposed to lose by a lot. You can find out if a player is "boom or bust" by researching them online.
+
+---
+
+You should now be prepared for a great fantasy season. If your season ends isn't going so well, don't get frustrated. Even the best fantasy football players have bad years and unexpected things happen. Maybe a player on an opposing team will get hurt and you will still have a chance of making the playoffs. Don't give up.
+
+I wanted to create this guide on fantasy football because it has brought me a lot of joy with friends and family over the past several years. If you have a similar experience with fantasy football, I'd love to [hear from you](https://twitter.com/JonathanBuchh).

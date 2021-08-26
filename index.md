@@ -1,71 +1,58 @@
 ---
 title: Jonathan Buchholz
 ---
-> Act justly, love mercy, walk humbly.
+> He has told you, O man, what is good; and what does the Lord require of you but to do justice, and to love kindness, and to walk humbly with your God?
 
-I'm a junior at Thomas Jefferson High School for Science and Technology chasing the Lord. I am also fond of:
-
-- Books
-- Khan Academy
-- Rowing
-- Social justice
-- [Tools for thought](https://numinous.productions/ttft/)
+I'm a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
 
 Here is my [Strava](https://strava.com/athletes/jonathanbuchh) if you came looking for me from Instagram.
 
-<!--
-
 ## Writing
 
-I just started writing online. Here are my recent posts:
-
 <style>
-.posts {
-  display: grid;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  grid-template-columns: 1fr min-content;
+.writing {
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
-.posts > div {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.writing > p {
+    margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.posts time {
-  padding-right: .25em;
-  white-space: pre;
+.description > a {
+    text-decoration: none;
 }
 
-@media screen and (max-width: 640px) {
-  .posts {
+.writing > p:last-of-type {
+    padding-bottom: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .writing {
     grid-template-columns: 1fr;
     grid-row-gap: 0;
   }
 
-  .posts h3 {
+  .writing h3 {
     display: none;
   }
 
-  .posts div {
-    white-space: normal
-   }
-
-  .posts time {
-    padding-bottom: 20px
+  .writing > .description {
+    padding-bottom: 10px;
   }
-}
-</style>
-<div class="posts">
-<h3>Title</h3>
-<h3>Date</h3>
-  {% for post in site.posts %}
-  <div>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-  </div>
-  <time>{{ post.date | date: "%b %d, %Y" }}</time>
-  {% endfor %}
-</div>
 
--->
+
+}
+
+</style>
+<div class="writing">
+<h3>Title</h3>
+<h3>Description</h3>
+    {% for post in site.posts %}
+    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+    <p class="description"><a href="{{ post.url }}">{{ post.description }}</a></p>
+    {% endfor %}
+</div>
