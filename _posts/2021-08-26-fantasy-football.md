@@ -1,7 +1,10 @@
 ---
 title: Fantasy Football
 description: A beginner's guide.
+image: /images/2021-08-26-trophy.jpg
 ---
+<img src="/images/2021-08-26-trophy.jpg" alt="Fantasy football trophy">
+
 I don't watch football, I don't follow football, and I don't understand America's infatuation with football. You might not think these characteristics describe someone who has played fantasy football for the past several years who has found success, playing in two championship games last year, but it's true of me. A lack of passion for _American_ football has never stopped me from falling in love with _fantasy_ football. I love drafting players, managing my (albeit fake) teams, and pretending I played a part when one of my players has a big game.
 
 This is intended to be a beginner's guide to fantasy football, something a new manager can read so they aren't embarrassed/taken advantage by their coworkers, family, or friends when added to their first fantasy football league. This guide includes the basic principles that I have been using to successfully play fantasy football.
