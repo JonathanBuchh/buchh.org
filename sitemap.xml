@@ -1,0 +1,31 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://jonathanbuchh.org/</loc>
+        <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://jonathanbuchh.org/email</loc>
+        <lastmod>{{ "now" | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    {% for post in site.posts %}
+    <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+        {% if post.image %}
+        <image:image>
+            <image:loc>{{ site.url }}{{ post.image }}</image:loc>
+        </image:image>
+        {% endif %}
+    </url>
+    {% endfor %}
+</urlset>

@@ -27,4 +27,6 @@
 {% endif %}
 <script data-goatcounter="https://jonathanbuchh.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <link href="{{ site.url }}/feed.xml" rel="alternate" type="application/rss+xml" title="Jonathan Buchholz">
+{% if page.url %}
 <link href="{{ site.url }}{{ page.url }}" rel="canonical">
+{% endif %}
