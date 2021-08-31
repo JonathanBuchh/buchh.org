@@ -24,7 +24,7 @@ Here is my [Strava](https://strava.com/athletes/jonathanbuchh) if you came looki
     text-overflow: ellipsis;
 }
 
-.description > a {
+.description a {
     text-decoration: none;
 }
 
@@ -55,6 +55,6 @@ Here is my [Strava](https://strava.com/athletes/jonathanbuchh) if you came looki
 <h3>Description</h3>
     {% for post in site.posts %}
     <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-    <p class="description"><a href="{{ post.url }}">{{ post.description }}</a></p>
+    <p class="description"><em><a href="{{ post.url }}">{{ post.description }}</a></em></p>
     {% endfor %}
 </div>
