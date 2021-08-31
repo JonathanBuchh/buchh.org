@@ -1,6 +1,6 @@
 ---
 title: Fantasy Football
-description: A beginner's guide.
+description: A beginner's guide
 image: /images/2021-08-26-trophy.jpg
 ---
 <img src="/images/2021-08-26-trophy.jpg" alt="Fantasy football trophy" class="invert">
