@@ -4,8 +4,6 @@ url: https://jonathanbuchh.org
 author: Jonathan Buchholz
 kramdown:
   auto_ids: false
-plugins:
-  - jekyll-feed
 include:
     - _pages
 defaults:
