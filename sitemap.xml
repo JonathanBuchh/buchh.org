@@ -4,20 +4,20 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://jonathanbuchh.org/</loc>
+      <loc>{{ site.url }}</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://jonathanbuchh.org/email/</loc>
+      <loc>{{ site.url }}/email</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d"}}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   {% for post in site.posts %}
   <url>
-    <loc>https://jonathanbuchh.org{{ post.url }}</loc>
+      <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
