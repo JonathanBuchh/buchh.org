@@ -10,12 +10,6 @@ layout: compress
 <body>
     <main>
     {% include header.html %}
-    {% if page.image %}
-    <picture>
-      <source srcset="{{ page.image.url }}.webp" type="image/webp">
-      <img alt="{{ page.image.alt }}" src="{{ page.image.url }}.jpg" {% if page.image.invert == true%}class="invert"{% endif %}>
-    </picture>
-    {% endif %}
     {% if page.date %}
     <p><time datetime="{{ page.date | %F }}">{{ page.date | date: "%b %d, %Y" }}</time></p>
     {% endif %}
