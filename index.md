@@ -2,12 +2,10 @@
 title: Jonathan Buchholz
 description: The writings, musing, and assorted output of Jonathan Buchholz.
 ---
-> He has told you, O man, what is good; and what does the Lord require of you but to do justice, and to love kindness, and to walk humbly with your God?  
+> He has told you, O man, what is good; and what does the Lord require of you but to do justice, and to love kindness, and to walk humbly with your God?
 > \- Micah 6:8
 
 I'm a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
-
-Here is my [Strava](https://strava.com/athletes/jonathanbuchh) if you came looking for me from Instagram.
 
 ## Writing
 
@@ -45,8 +43,6 @@ Here is my [Strava](https://strava.com/athletes/jonathanbuchh) if you came looki
   .writing > .description {
     padding-bottom: 10px;
   }
-
-
 }
 
 </style>
@@ -55,6 +51,6 @@ Here is my [Strava](https://strava.com/athletes/jonathanbuchh) if you came looki
 <h3>Description</h3>
     {% for post in site.posts %}
     <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-    <p class="description"><em><a href="{{ post.url }}">{{ post.description }}</a></em></p>
+    <p class="description"><em>{{ post.description }}</em></p>
     {% endfor %}
 </div>

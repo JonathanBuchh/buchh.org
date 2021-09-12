@@ -10,13 +10,7 @@ layout: compress
 <body>
     <main>
     {% include header.html %}
-    {% if page.date %}
-    <p><time datetime="{{ page.date | %F }}">{{ page.date | date: "%b %d, %Y" }}</time></p>
-    {% endif %}
     {{ content }}
    </main>
-    {% if page.title != "Subscribed" and page.title != "Confirmed" %}
-    {% include footer.html %}
-    {% endif %}
 </body>
 </html>

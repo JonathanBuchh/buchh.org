@@ -1,13 +1,8 @@
 ---
 title: Fantasy Football
 description: A beginner's guide
-image: /images/2021-08-26-trophy.jpg
+permalink: /ffb
 ---
-<picture>
-  <source srcset="{{ page.image }}.webp" type="image/webp">
-  <img alt="Trophy" src="{{ page.image.url }}" class="invert">
-</picture>
-
 I don't watch football, I don't follow football, and I don't understand America's infatuation with football. You might not think these characteristics describe someone who has played fantasy football for the past several years who has found success, playing in two championship games last year, but it's true of me. A lack of passion for _American_ football has never stopped me from falling in love with _fantasy_ football. I love drafting players, managing my (albeit fake) teams, and pretending I played a part when one of my players has a big game.
 
 This is intended to be a beginner's guide to fantasy football, something a new manager can read so they aren't embarrassed/taken advantage by their coworkers, family, or friends when added to their first fantasy football league. This guide includes the basic principles that I have been using to successfully play fantasy football.
@@ -16,9 +11,9 @@ I assume some general knowledge about American football and fantasy football, su
 
 ## Drafting
 
-The draft is one of the most important parts of fantasy football, but that doesn't mean you need to spend hours researching or making a complex plan to have a good draft. 
+The draft is one of the most important parts of fantasy football, but that doesn't mean you need to spend hours researching or making a complex plan to have a good draft.
 
-When making picks, it is paramount to evaluate a player's value compared to other players you could draft. The easiest way to do this is to compare a given player's Average Draft Position (ADP) to the current pick. If a player has an ADP of 56, it means on average, they are selected with the 56th pick. If you have the 2nd pick, you probably shouldn't pick a player with an ADP of 56 without good reason, since there should be more valuable players available. The player with an ADP of 56 should be available in later rounds. 
+When making picks, it is paramount to evaluate a player's value compared to other players you could draft. The easiest way to do this is to compare a given player's Average Draft Position (ADP) to the current pick. If a player has an ADP of 56, it means on average, they are selected with the 56th pick. If you have the 2nd pick, you probably shouldn't pick a player with an ADP of 56 without good reason, since there should be more valuable players available. The player with an ADP of 56 should be available in later rounds.
 
 You should be able see each player's ADP while drafting, but rankings can easily be found online.
 
@@ -52,4 +47,4 @@ Believe it or not, there is some strategy in making the best lineup. If you are 
 
 You should now be prepared for a great fantasy season. If your season ends isn't going so well, don't get frustrated. Even the best fantasy football players have bad years and unexpected things happen. Maybe a player on an opposing team will get hurt and you will still have a chance of making the playoffs. Don't give up.
 
-I wanted to create this guide on fantasy football because it has brought me a lot of joy with friends and family over the past several years. If you have a similar experience with fantasy football, I'd love to [hear from you](https://twitter.com/JonathanBuchh).
+I wanted to create this guide on fantasy football because it has brought me a lot of joy with friends and family over the past several years. If you have a similar experience with fantasy football, I'd love to [hear from you](mailto:jonathan@buchh.org).

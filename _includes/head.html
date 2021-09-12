@@ -1,30 +1,13 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 {% if page.title != "Jonathan Buchholz" %}
-<title>{{ site.title }} / {{ page.title }}</title>
+<title>{{ page.title }} / {{ site.title }}</title>
 {% else %}
 <title>{{ site.title }}</title>
-{% endif %}
-<meta content="{{ page.title }}" name=og:title>
 {% if page.description %}
 <meta content="{{ page.description }}" name="description">
-<meta content="{{ page.description }}" name="og:description">
 {% else %}
 <meta content="{{ site.description }}" name="description">
-<meta content="{{ site.description }}" name="og:description">
 {% endif %}
-<meta content="Jonathan Buchholz" name="author">
-<meta content="Jonathan Buchholz" name="og:author">
-<meta content="@JonathanBuchh" name="twitter:creator">
-{% if page.image %}
-<meta content="{{ site.url }}{{ page.image }}" name="og:image">
-<meta content="summary_large_image" name="twitter:card">
-{% else %}
-<meta content="{{ site.url }}/images/portrait.jpg" name="og:image">
-<meta content="summary" name="twitter:card">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 {% endif %}
-<script data-goatcounter="https://jonathanbuchh.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <link href="{{ site.url }}/feed.xml" rel="alternate" type="application/rss+xml" title="Jonathan Buchholz">
-{% if page.url %}
-<link href="{{ site.url }}{{ page.url }}" rel="canonical">
-{% endif %}
