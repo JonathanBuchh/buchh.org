@@ -2,15 +2,32 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang=en dir=ltr>
 <head>
-{% include head.html %}
-{% include style.html %}
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    {% if page.title != "Jonathan Buchholz" %}
+    <title>{{ page.title }} / {{ site.title }}</title>
+    {% else %}
+    <title>{{ site.title }}</title>
+    {% endif %}
+    {% if page.description %}
+    <meta name=description content="{{ page.description }}">
+    {% else %}
+    <meta name=description content="{{ site.description }}">
+    {% endif %}
+    <link rel=alternate type=application/rss+xml title="Jonathan Buchholz" href="{{ site.url }}/feed.xml">
+    <style>
+    {% include style.css %}
+    </style>
 </head>
 <body>
-    <main>
-    {% include header.html %}
+    {% if page.title != "Jonathan Buchholz" %}
+    <nav><h1><a href=/ title="Jonathan Buchholz">Jonathan Buchholz</a></h1></nav>
+    <h1>{{ page.title }}</h1>
+    {% else %}
+    <nav><h1>Jonathan Buchholz</h1></nav>
+    {% endif %}
     {{ content }}
-   </main>
 </body>
 </html>
