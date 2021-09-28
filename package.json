@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "premature-optimizer": "https://github.com/tmcw/premature-optimizer.git"
+  }
+}
