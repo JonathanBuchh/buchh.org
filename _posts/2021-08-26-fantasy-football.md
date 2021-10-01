@@ -46,5 +46,3 @@ Believe it or not, there is some strategy in making the best lineup. If you are 
 ---
 
 You should now be prepared for a great fantasy season. If your season ends isn't going so well, don't get frustrated. Even the best fantasy football players have bad years and unexpected things happen. Maybe a player on an opposing team will get hurt and you will still have a chance of making the playoffs. Don't give up.
-
-I wanted to create this guide on fantasy football because it has brought me a lot of joy with friends and family over the past several years. If you have a similar experience with fantasy football, I'd love to [hear from you](mailto:jonathan@buchh.org).
