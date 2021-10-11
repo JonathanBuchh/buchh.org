@@ -7,3 +7,8 @@ rating: 4
 cover: /images/BurglarsGuide.gif
 permalink: /book/BurglarsGuide
 ---
+---
+
+Burglar's use the world around us differently because they have a different objective.
+
+We only know about the ways burglars think based on the ones that we've caught. The practices of the "best" burglar's work are largely unknown because they escaped (selection bias).
