@@ -28,8 +28,10 @@ a:visited {
 
 .cover {
   float:left;
-  margin-right:2em;
-  height:200px
+  margin-right:1em;
+  margin-top:.75em;
+  height:200px;
+  width: 100%
 }
 
 @media screen and (max-width: 440px){
