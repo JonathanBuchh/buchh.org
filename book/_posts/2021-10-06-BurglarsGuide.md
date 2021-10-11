@@ -7,7 +7,7 @@ rating: 4
 cover: /images/BurglarsGuide.gif
 permalink: /book/BurglarsGuide
 ---
----
+## Notes
 
 Burglars use the world around us differently because they have a different objective.
 
