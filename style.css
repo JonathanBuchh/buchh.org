@@ -57,23 +57,27 @@ a:visited {
 }
 
 .writing {
-    display: grid;
-    grid-template-columns: 30% 70%;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
 .writing > p {
-    margin: 5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  margin: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .description a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .writing > p:last-of-type {
-    padding-bottom: 16px;
+  padding-bottom: 16px;
+}
+
+.cover {
+  max-height: 200px
 }
 
 @media screen and (max-width: 800px) {
