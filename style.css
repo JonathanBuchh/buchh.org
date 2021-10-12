@@ -29,7 +29,8 @@ a:visited {
 .cover {
   float:left;
   margin-right:1em;
-  height:200px
+  height:200px;
+  width:auto
 }
 
 .book img {
