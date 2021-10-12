@@ -25,7 +25,7 @@ Thoughts and notes on books I read. See a [ranking](/book/log) of these books.
     <a href="{{ page.url }}"><img src="{{ page.cover }}" alt="{{ page.title }}" class=cover></a>
     <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
     <h4>by {{ page.author }}</h4>
-    <p>I read this on {{ page.date | date: "%B %-d, %Y"}} and I recommend it <b>{{ page.rating }}</b>/10.</p>
+    <p>I last read this on {{ page.date | date: "%B %-d, %Y"}} and I recommend it <b>{{ page.rating }}</b>/10.</p>
     <p>{{ page.review }}</p>
     <p><a href="{{ page.url }}">Read my notes</a></p>
     {% endfor %}
