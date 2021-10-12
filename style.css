@@ -29,7 +29,11 @@ a:visited {
 .cover {
   float:left;
   margin-right:1em;
-  height:200px;
+  height:200px
+}
+
+.book img {
+  margin-top:.5em;
 }
 
 @media screen and (max-width: 440px){

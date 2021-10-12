@@ -6,7 +6,7 @@ I'm a junior at Thomas Jefferson High School for Science and Technology chasing 
 
 ## Writing
 
-<div class="writing">
+<div class=writing>
 <h3>Title</h3>
 <h3>Description</h3>
     {% for post in site.categories.writing %}
@@ -19,7 +19,7 @@ I'm a junior at Thomas Jefferson High School for Science and Technology chasing 
 
 Thoughts and notes on books I read. See a [ranking](/book/log) of these books.
 
-<div>
+<div class=book>
     {% for page in site.categories.book %}
     <hr>
     <a href="{{ page.url }}"><img src="{{ page.cover }}" alt="{{ page.title }}" class=cover></a>
