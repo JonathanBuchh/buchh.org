@@ -1,2 +1,2 @@
-- name: Lighthouse CI Action
-  uses: treosh/lighthouse-ci-action@v8
+name: Lighthouse CI Action
+uses: treosh/lighthouse-ci-action@v8
