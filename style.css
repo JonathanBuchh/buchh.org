@@ -43,6 +43,10 @@ a:visited {
   }
 }
 
+/* .book div:last-of-type { */
+/*   margin-bottom:40px */
+/* } */
+
 @media screen and (min-width: 440px){
   nav h1 {
     font-size:3em
