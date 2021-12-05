@@ -12,7 +12,7 @@ permalink: /books
 - Not All of Us Are Saints (David Hilfiker)
 - The Power of Habit (Charles Duhigg)
 
-## Ranked by Year Read
+## Ranked by Year
 
 ### 2021
 
