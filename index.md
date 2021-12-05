@@ -1,32 +1,14 @@
 ---
 title: Jonathan Buchholz
-description: The writings, musing, and assorted output of Jonathan Buchholz.
+description: Jonathan Buchholz's website.
+layout: index
 ---
 I'm a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
 
+This site is mostly for books notes, but I do a bit of writing.
+
 ## Writing
 
-<div class=writing>
-<h3>Title</h3>
-<h3>Description</h3>
-    {% for post in site.categories.writing %}
-    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
-    <p class="description"><em>{{ post.description }}</em></p>
-    {% endfor %}
-</div>
-
-## Reading
-
-Thoughts and notes on books I read. See a [ranking](/book/log) of these books.
-
-<div class=book>
-    {% for page in site.categories.book %}
-    <hr>
-    <a href="{{ page.url }}"><img src="{{ page.cover }}" alt="{{ page.title }}" class=cover></a>
-    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-    <h4>by {{ page.author }}</h4>
-    <p>I last read this on {{ page.date | date: "%B %-d, %Y"}} and I recommend it <b>{{ page.rating }}</b>/10.</p>
-    <p>{{ page.review }}</p>
-    <p><a href="{{ page.url }}">Read my notes</a></p>
-    {% endfor %}
-</div>
+{% for post in site.posts %}
+<p><time>{{ post.date | date: "%m/%y" }}</time> <a href="{{ post.url }}">{{ post.title }}</a></p>
+{% endfor %}

@@ -1,14 +1,5 @@
 title: Jonathan Buchholz
-description: The writing, musings, and assorted output of Jonathan Buchholz.
+description: Jonathan Buchholz's website.
 url: https://buchh.org
-author: Jonathan Buchholz
 kramdown:
   auto_ids: false
-include:
-    - _pages
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"

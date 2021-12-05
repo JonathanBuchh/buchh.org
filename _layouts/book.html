@@ -1,31 +1,14 @@
 ---
 layout: compress
 ---
-<!DOCTYPE html>
-<html lang=en dir=ltr>
-<head>
-    <meta charset=utf-8>
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    {% if page.title != "Jonathan Buchholz" %}
-    <title>{{ page.title }} / {{ site.title }}</title>
-    {% else %}
-    <title>{{ site.title }}</title>
-    {% endif %}
-    {% if page.description %}
-    <meta name=description content="{{ page.description }}">
-    {% else %}
-    <meta name=description content="{{ site.description }}">
-    {% endif %}
-    <link rel=alternate type=application/rss+xml title="Jonathan Buchholz" href="{{ site.url }}/feed.xml">
-    <link rel=stylesheet type=text/css href=/style.css>
-</head>
+{% include head.html%}
 <body>
-    {% if page.title != "Jonathan Buchholz" %}
-    <nav><h1><a href=/ title="Jonathan Buchholz">Jonathan Buchholz</a></h1></nav>
-    <h1>{{ page.title }}</h1>
-    {% else %}
-    <nav><h1>Jonathan Buchholz</h1></nav>
-    {% endif %}
+    {% include nav.html %}
+    <img src="{{ page.cover }}" alt="{{ page.title }}" class=cover>
+    <h2>by {{ page.author}}</h2>
+    <p>I last read this on {{ page.date | date: "%B %-d, %Y"}} and I recommend it <b>{{ page.rating }}</b>/10.</p>
+    <p>{{ page.date | date: "%B %-d, %Y"}}</p>
+    <p>{{ page.description }}</p>
     {{ content }}
 </body>
 </html>

@@ -1,7 +1,8 @@
 ---
 title: Book Rankings
+layout: default
 description: Rankings of all books I've read
-permalink: /book/log
+permalink: /books
 ---
 ## Hall of Fame
 
@@ -19,9 +20,9 @@ permalink: /book/log
 2. Can't Hurt Me (David Goggins)
 3. Atomic Habits (James Clear)
 4. How to Take Smart Notes (Sönke Ahrens)
-5. [The Scarlett Letter](/book/ScarletLetter) (Nathaniel Hawthorne)
+5. [The Scarlett Letter](/ScarletLetter) (Nathaniel Hawthorne)
 6. The Sports Gene (David Epstein)
-7. [A Burglar's Guide to the City](/book/BurglarsGuide) (Geoff Manaugh)
+7. [A Burglar's Guide to the City](/BurglarsGuide) (Geoff Manaugh)
 8. Charlotte Temple (Susanna Rowson)
 9. A Tale of Two Cities (Charles Dickens)
 10. Building a StoryBrand (Donald Miller)
