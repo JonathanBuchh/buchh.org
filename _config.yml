@@ -3,5 +3,3 @@ description: Jonathan Buchholz's website.
 url: https://buchh.org
 kramdown:
   auto_ids: false
-plugins:
-  - jekyll-last-modified-at
