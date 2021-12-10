@@ -1,0 +1,31 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+      - name: Build site
+        run: |
+          bundle install
+          bundle exec jekyll build
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.8.x
+          lhci autorun
+      # - name: Compress
+      #   run: |
+      #     cd _site/
+      #     yarn add https://github.com/tmcw/premature-optimizer
+      #     git config --local user.email "$(git log --format='%ae' HEAD^!)"
+      #     git config --local user.name "$(git log --format='%an' HEAD^!)"
+      #     git add .
+      #     git commit -m "Deploy _site/ to gh-pages"
+      #     git push origin gh-pages -f
