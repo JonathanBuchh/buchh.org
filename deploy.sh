@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 bundle exec jekyll build && \
 cd _site && \
-yarn add https://github.com/tmcw/premature-optimizer && \
 for file in $(find *.html)
 do
     npx premature-optimizer $file
