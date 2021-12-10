@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# TODO: install premature-optimizer if not installed globally
 bundle exec jekyll build && \
 cd _site && \
 for file in $(find *.html)
