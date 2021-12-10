@@ -3,8 +3,8 @@ module.exports = {
     collect: {
       staticDistDir: './_site',
     },
-    upload: {
-      target: 'temporary-public-storage',
+    assert: {
+      preset: 'lighthouse:all',
     },
   },
 };
