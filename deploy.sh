@@ -12,4 +12,4 @@ git push origin gh-pages && \
 cd .. && \
 git add . && \
 git commit && \
-echo "Successfully built and pushed gh-pages to GitHubH"
+echo "Successfully built and pushed gh-pages to GitHub"

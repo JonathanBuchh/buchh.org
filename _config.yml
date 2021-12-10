@@ -3,4 +3,5 @@ description: Jonathan Buchholz's website.
 url: https://buchh.org
 kramdown:
   auto_ids: false
-include: keybase.txt
+include:
+  - keybase.txt
