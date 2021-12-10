@@ -4,7 +4,10 @@ module.exports = {
       staticDistDir: './_site',
     },
     assert: {
-      preset: 'lighthouse:all',
+      "categories:performance": ["error", {"minScore": 100}],
+      "categories:accessibility": ["error", {"minScore": 100}],
+      "categories:best-practices": ["error", {"minScore": 100}],
+      "categories:seo": ["error", {"minScore": 100}],
     },
   },
 };
