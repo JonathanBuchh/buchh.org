@@ -1,14 +1,18 @@
 module.exports = {
   ci: {
     collect: {
-      staticDistDir: './_site',
+      staticDistDir: "./_site",
       numberOfRuns: 1,
     },
     upload: {
-      target: 'temporary-public-storage',
+      target: "temporary-public-storage",
     },
     assert: {
-      "categories:accessibility": ["error", {"minScore": 1}]
+      "assertions": {
+        "categories:accessibility": ["error", {"minScore": 1}],
+        "categories:best-practices": ["error", {"minScore": 1}],
+        "categories:seo": ["error", {"minScore": 1}],
+      }
     },
   },
 };
