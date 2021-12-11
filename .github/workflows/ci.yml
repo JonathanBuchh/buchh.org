@@ -23,6 +23,8 @@ jobs:
         run: |
           npm install -g @lhci/cli@0.8.x
           lhci assert
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
       # - name: Compress
       #   run: |
       #     cd _site/

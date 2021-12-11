@@ -2,15 +2,13 @@ module.exports = {
   ci: {
     collect: {
       staticDistDir: './_site',
-    },
-    upload: {
-      target: 'temporary-public-storage',
+      numberOfRuns: 1,
     },
     assert: {
-      "categories:performance": ["error", {"minScore": 100}],
-      "categories:accessibility": ["error", {"minScore": 100}],
-      "categories:best-practices": ["error", {"minScore": 100}],
-      "categories:seo": ["error", {"minScore": 100}],
+      "categories:performance": ["error", {"minScore": 1}],
+      "categories:accessibility": ["error", {"minScore": 1}],
+      "categories:best-practices": ["error", {"minScore": 1}],
+      "categories:seo": ["error", {"minScore": 1}],
     },
   },
 };
