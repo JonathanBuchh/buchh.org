@@ -1,8 +1,7 @@
 ---
 title: Book - The Scarlet Letter
-layout: default
 description: Notes on The Scarlet Letter by Nathaniel Hawthorne
-permalink: /scarletletter
+permalink: scarletletter
 ---
 ## by Nathaniel Hawthorne
 

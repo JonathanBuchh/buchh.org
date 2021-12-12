@@ -1,11 +1,17 @@
 name: CI
-on: [push]
+on:
+  push:
+    branches:
+        - main
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -25,12 +31,25 @@ jobs:
           lhci autorun
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
-      # - name: Compress
-      #   run: |
-      #     cd _site/
-      #     yarn add https://github.com/tmcw/premature-optimizer
-      #     git config --local user.email "$(git log --format='%ae' HEAD^!)"
-      #     git config --local user.name "$(git log --format='%an' HEAD^!)"
-      #     git add .
-      #     git commit -m "Deploy _site/ to gh-pages"
-      #     git push origin gh-pages -f
+      - name: Compress
+        run: |
+          cd _site/
+          yarn add https://github.com/tmcw/premature-optimizer
+          for file in $(find *.html); do npx premature-optimizer $file; done
+      - name: Commit
+        run: |
+          cd _site/
+          git config --global user.name "Jonathan Buchholz"
+          git config --global user.email "63243849+JonathanBuchh@users.noreply.github.com"
+          git init
+          git remote add origin https://github.com/JonathanBuchh/jonathanbuchh.github.io
+          echo node_modules > .gitignore
+          git add .
+          git commit -m "Deploy _site/ to gh-pages"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PAT }}
+          branch: gh-pages
+          force: true
+          directory: ./_site

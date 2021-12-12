@@ -1,8 +1,7 @@
 ---
 title: Book - A Burglar's Guide to the City
-layout: default
 description: Notes on A Burglar's Guide to the City by Geoff Manaugh
-permalink: /burglarsguide
+permalink: burglarsguide
 ---
 ## by Geoff Manaugh
 
