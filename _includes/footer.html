@@ -4,5 +4,9 @@
     <br>
     <small>View the <a href="https://github.com/JonathanBuchh/jonathanbuchh.github.io">source code</a> to this website.</small>
     <br>
-    <small>The most recent change to this page occurred on <b>{% last_modified {{ page.path }} %}</b>.</small>
+    {% if page.date%}
+    <small>This page was published on <b>{{ page.date | date: "%B %d, %Y" }}</b> and most recently changed on <b>{% last_modified {{ page.path }} %}</b>.</small>
+    {% else %}
+    <small>This page was most recently changed on <b>{% last_modified {{ page.path }} %}</b>.</small>
+    {% endif %}
 </footer>
