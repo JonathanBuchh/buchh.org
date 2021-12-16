@@ -4,9 +4,7 @@ My [personal website](https://buchh.org) published on the [gh-pages](https://git
 
 ## Why [Jekyll](https://jekyllrb.com/)?
 
-I prefer writing in [Markdown](https://en.wikipedia.org/wiki/Markdown) over pure HTML and I like having a fast website. I use a [static site generator](https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators) so I can keep consistent headers and footers on all pages.
-
-I know that [hugo](https://gohugo.io/) would build my site faster, but I have so little content that the build times don't bother me (for now). I'll probably get bored one day and switch to it.
+There are a few things that were nonnegotiable for me when starting this website. I needed to write in [Markdown](https://en.wikipedia.org/wiki/Markdown) because writing pure HTML is tedious and I needed the site to be as fast as possible. I also wanted to be able to change d headers and footers on all pages without changing them all (I need templating), which made a [static site generator](https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators) generator an obvious choice. I already knew Jekyll prior to starting this website and understood how it worked, so it's what I used. I know that [hugo](https://gohugo.io/) would build my site faster, but I have so little content that the build times don't bother me. I'll probably get bored one day and switch to it, but right now, I'm inclined to keep using what works.
 
 ## Building
 
