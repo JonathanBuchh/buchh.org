@@ -1,6 +1,6 @@
 ---
-title: Book - The Scarlet Letter by Nathaniel Hawthorne
-description: Notes on The Scarlet Letter by Nathaniel Hawthorne
+title: The Scarlet Letter Book Review
+description: Thoughts on The Scarlet Letter by Nathaniel Hawthorne
 permalink: scarletletter
 ---
 <img src="/images/scarletletter.webp" alt="The Scarlet Letter by Nathaniel Hawthorne" style="height:200px;width:auto">

@@ -1,6 +1,6 @@
 ---
-title: Book - A Burglar's Guide to the City by Geoff Manaugh
-description: Notes on A Burglar's Guide to the City by Geoff Manaugh
+title: A Burglar's Guide to the City Book Review
+description: Thoughts on A Burglar's Guide to the City by Geoff Manaugh
 permalink: burglarsguide
 ---
 <img src="/images/burglarsguide.webp" alt="A Burglar's Guide by Geoff Manaugh" style="height:200px;width:auto">
