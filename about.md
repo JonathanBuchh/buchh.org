@@ -13,4 +13,4 @@ This website uses [Jekyll](https://jekyllrb.com) as a [static site generator](ht
 
 ## Disclaimer
 
-My opinions change over time, so something on this site may not represent my current views. Additionally, I am not a subject matter research in any subject, so posts here are just from personal experience and research (I don't know what I'm doing).
+My opinions change over time, so something on this site may not represent my current views. Additionally, I am not a subject matter research in any subject, so take everything with a grain of salt.
