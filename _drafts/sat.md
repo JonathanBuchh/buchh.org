@@ -3,7 +3,9 @@ title: How to Study for the SAT
 description: What I Wish I Knew Before Starting
 permalink: sat
 ---
-Last August, I started...pretty much all of the websites tried to sell me something, whether it be a book, service, or something else.
+## Why
+
+I'm writing this guide for my past self as well as my sister. This isn't to
 
 I am not writing this to show how good of a job I did, but to write down what worked for me and what I would have done differently for my past self.
 
