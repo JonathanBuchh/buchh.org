@@ -1,5 +1,8 @@
 module.exports = {
   ci: {
+    upload: {
+      target: 'temporary-public-storage',
+    },
     collect: {
       staticDistDir: "./_site",
       numberOfRuns: 1,
