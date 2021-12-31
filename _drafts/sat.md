@@ -26,25 +26,27 @@ Improvement in layer 2 mainly comes from doing lots of practice tests, though yo
 
 You know you're past layer 2 when you start reading a question (except for the Evidence-Based Reading section) and already know what College Board wants you to answer (make sure not to rush to the wrong conclusion!).
 
-## Level 3: Slowing Down
+## Layer 3: Slowing Down
 
-After doing lots of practice tests, I started to find myself
+I only got to layer 3 a week or two before I took the SAT in December of 2021. When I first started taking practice tests, I would barely finish every question on time. After enough practice, I started to gain more and more time to check my work after each section until eventually, I had time to check every question, which is what I define as layer 3.
 
 ## Which Book?
 
-## SAT Tutors/Prep Courses
+I bought the book my tutor recommended, but didn't find it to be too helpful. In my opinion and experience, they are overwhelming, since they are too long to complete in full, aren't great at explaining forgotten concepts, and probably a waste of money. Outside of completing a few assigned problems from my tutor, I only used my book to do extra practice tests after I ran out of the tests provided by College Board.
+
+## SAT Tutors
+
+My SAT tutor provided phenomenal value. She helped me understand that I should never feel ambivalent to
 
 She helped me solve math problems in new, faster ways that I didn't learn in school. I met with her three times and found our time together was best used when she (1) taught me faster ways to solve math problems and (2) pointed out the types of questions people often got wrong or could be solved.
 
-## Why
+## SAT Prep Courses
 
-I'm writing this guide for my past self as well as my sister. This isn't to
+While I didn't find a need to take an SAT prep course myself, it could be a good option for some people. If you aren't able to self-discipline, an SAT prep course is probably a good option. Because you are spending thousands of dollars, you could feel pressure to make the most of you time. I'd try practicing at home first before committing to an SAT prep course.
 
-I am not writing this to show how good of a job I did, but to write down what worked for me and what I would have done differently for my past self.
+## Appendix
 
-Here's a big picture timeline of what you should do:
-
-On completion of Algebra I, you should take a practice SAT. While taking an entire practice test is ideal, it's fine to just take the math section. The point of taking a practice SAT this early is twofold: (1) you already know how to do a lot of the test and (2) it will help you learn what you should especially pay attention to in class.
+Good luck on your SAT!
 
 <!--
 
