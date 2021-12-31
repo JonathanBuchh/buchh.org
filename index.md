@@ -6,8 +6,8 @@ This is my little piece of the internet. If you're interested in learning more a
 
 {% for post in site.posts %}
 {% if post.description %}
-<p>{{ post.date | date: "%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.description }}</p>
+<p><a href="{{ post.url }}">{{ post.title }}</a>: {{ post.description }}</p>
 {% else %}
-<p>{{ post.date | date: "%m/%y" }} <a href="{{ post.url }}">{{ post.title }}</a></p>
+<p><a href="{{ post.url }}">{{ post.title }}</a></p>
 {% endif %}
 {% endfor %}

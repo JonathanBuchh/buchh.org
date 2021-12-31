@@ -1,6 +1,6 @@
 ---
-title: Book Rankings
-description: Rankings of all books I've read
+title: Reading Log
+description: Jonathan Buchholz's Reading Log
 permalink: books
 ---
 ## Hall of Fame
