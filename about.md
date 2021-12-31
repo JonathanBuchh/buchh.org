@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: All about Jonathan Buchholz and his website.
+description: About Jonathan Buchholz.
 ---
 <img src="/images/portrait.webp" alt="Jonathan Buchholz" style="float:right;margin:0 0 5px 15px;width:150px;height:auto">
 
