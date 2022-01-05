@@ -3,7 +3,7 @@ description: Jonathan Buchholz's website.
 url: https://buchh.org
 kramdown:
   auto_ids: false
-  footnote_backlink: "↩"
+  footnote_backlink: '&#8617;&#65038;'
 defaults:
   -
     scope:
