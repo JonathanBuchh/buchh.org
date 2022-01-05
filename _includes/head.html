@@ -24,6 +24,10 @@
       font-family: "SF Mono", monospace;
       overflow:auto;
     }
+    /* prevent iOS from rendering emoji instead of glyph in footnotes */
+    .reversefootnote {
+      font-family: monospace;
+    }
     @media(prefers-color-scheme:dark) {
       body {
         background: #000;
