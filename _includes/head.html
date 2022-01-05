@@ -26,7 +26,11 @@
     }
     /* prevent iOS from rendering emoji instead of glyph in footnotes */
     .reversefootnote {
-      font-family: monospace;
+      background-clip: text;
+      -webkit-background-clip: text;
+
+      {% comment %} font-family: monospace; {% endcomment %}
+      {% comment %} font-size: 16px; {% endcomment %}
     }
     @media(prefers-color-scheme:dark) {
       body {
