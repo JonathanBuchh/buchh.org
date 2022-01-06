@@ -1,8 +1,10 @@
 title: Jonathan Buchholz
 description: Jonathan Buchholz's website.
 url: https://buchh.org
-kramdown:
+markdown: CommonMarkGhPages
+commonmark:
   auto_ids: false
+  options: ["FOOTNOTES"]
 defaults:
   -
     scope:
