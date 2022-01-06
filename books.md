@@ -11,25 +11,42 @@ permalink: books
 - Not All of Us Are Saints (David Hilfiker)
 - The Power of Habit (Charles Duhigg)
 
-## Ranked by Year
-
 ### 2021
+
+#### Ranked
 
 1. 1984 (George Orwell)
 2. Can't Hurt Me (David Goggins)
-3. Atomic Habits (James Clear)
-4. How to Take Smart Notes (Sönke Ahrens)
-5. The Scarlett Letter (Nathaniel Hawthorne)
-6. The Sports Gene (David Epstein)
-7. A Burglar's Guide to the City (Geoff Manaugh)
-8. Charlotte Temple (Susanna Rowson)
-9. A Tale of Two Cities (Charles Dickens)
-10. Building a StoryBrand (Donald Miller)
-11. Ivy Study Tips (Mac Singer)
-12. Things Fall Apart (Chinua Achebe)
-13. Think Like a Monk (Jay Shetty)
+3. Deep Work (Cal Newport)
+4. Atomic Habits (James Clear)
+5. How to Take Smart Notes (Sönke Ahrens)
+6. The Scarlett Letter (Nathaniel Hawthorne)
+7. The Sports Gene (David Epstein)
+8. How to Live (Derek Sivers)
+9. A Burglar's Guide to the City (Geoff Manaugh)
+10. Charlotte Temple (Susanna Rowson)
+11. A Tale of Two Cities (Charles Dickens)
+12. Building a StoryBrand (Donald Miller)
+13. Ivy Study Tips (Mac Singer)
+14. Things Fall Apart (Chinua Achebe)
+15. Think Like a Monk (Jay Shetty)
+
+#### Unranked
+
+- Allegiant (Veronica Roth)
+- Catching Fire (Suzanne Collins)
+- Crash Your 2k Erg Score (Brandy Mulligan)
+- Divergent (Veronica Roth)
+- Harry Potter and the Cursed Child (J. K. Rowling)
+- Insurgent (Veronica Roth)
+- Mockingjay (Suzanne Collins)
+- The Ballad of Songbirds and Snakes (Suzanne Collins)
+- The Hunger Games (Suzanne Collins)
+- We Can Be Mended (Veronica Roth)
 
 ### 2020
+
+#### Ranked
 
 1. The Bible (Man Upstairs)
 2. How to Win Friends and Influence People (Dale Carnegie)
@@ -50,12 +67,16 @@ permalink: books
 
 ### 2019
 
+#### Ranked
+
 1. The Prodigal God (Timothy Keller)
 2. Factfulness (Hans Rosling)
 3. The 4-Hour Workweek (Tim Ferriss)
 4. The Tools of Titans (Tim Ferriss)
 
 ### 2018
+
+#### Ranked
 
 1. Just Mercy (Bryan Stevenson)
 2. The Language of God (Francis Collins)
