@@ -5,7 +5,7 @@ description: About Jonathan Buchholz.
 ---
 <img src="/images/portrait.webp" alt="Jonathan Buchholz" style="float:right;margin:0 0 5px 15px;width:150px;height:auto">
 
-Hi, I'm Jonathan Buchholz. I'm a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
+Hi, I'm Jonathan Buchholz, a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
 
 ## Colophon
 
