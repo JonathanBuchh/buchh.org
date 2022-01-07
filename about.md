@@ -7,9 +7,11 @@ description: About Jonathan Buchholz.
 
 Hi, I'm Jonathan Buchholz, a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
 
+The content of this website is published with a [CC BY-NC-ND license](https://creativecommons.org/licenses/by-nd/4.0/) and the [source code](https://github.com/JonathanBuchh/jonathanbuchh.github.io) has an [MIT License](https://github.com/JonathanBuchh/jonathanbuchh.github.io/blob/main/LICENSE).
+
 ## Colophon
 
-This website uses [Jekyll](https://jekyllrb.com) as a [static site generator](https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators) and is hosted by [GitHub pages](https://pages.github.com) for free. I have a detailed description of my setup on my website's [`README.md`](https://github.com/JonathanBuchh/jonathanbuchh.github.io#readme) on GitHub. You can also browse my [source code](https://github.com/JonathanBuchh/jonathanbuchh.github.io) while you're there.
+This website uses [Jekyll](https://jekyllrb.com) as a [static site generator](https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators) and is hosted by [GitHub pages](https://pages.github.com) for free. I have a detailed description of my setup on my website's [`README.md`](https://github.com/JonathanBuchh/jonathanbuchh.github.io#readme) on GitHub.
 
 ## Disclaimer
 
