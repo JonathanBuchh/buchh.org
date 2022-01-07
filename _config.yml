@@ -3,7 +3,6 @@ description: Jonathan Buchholz's website.
 url: https://buchh.org
 markdown: CommonMarkGhPages
 commonmark:
-  auto_ids: false
   options: ["FOOTNOTES"]
 defaults:
   -
