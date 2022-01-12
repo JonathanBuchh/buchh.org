@@ -10,6 +10,8 @@ There are a few things that were nonnegotiable for me when starting this website
 
 `hugo server up`
 
+## GitHub Actions
+
 ### Linkrot
 
 I use [notfoundbot](https://github.com/tmcw/notfoundbot) to check for outdated links. No one likes clicking on a link and finding out that the site doesn't exist. It's nice that notfoundbot automatically finds the website in the [Internet Archive](https://archive.org/)
