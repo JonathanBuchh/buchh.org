@@ -13,16 +13,19 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
-    <link>{{ .Permalink }}</link>
-    <description>Jonathan Buchholz • buchh.org</description>
+    <title>Jonathan Buchholz • buchh.org</title>
+    <link>https://buchh.org</link>
+    <description>buchh.org RSS feed</description>
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
     {{ range $pages }}
     <item>
       <title>{{ .Title }}</title>
+      <description>{{ .Content | html }}</description>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}</description>
     </item>
     {{ end }}
   </channel>
