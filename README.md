@@ -8,25 +8,15 @@ There are a few things that were nonnegotiable for me when starting this website
 
 ## Development
 
-`gem install bundler`
-
-`bundle install`
-
-`bundle exec jekyll serve` (add `--livereload` or `-l` if you don't want to reload every time you make changes)
-
-## [GitHub Actions](https://github.com/JonathanBuchh/jonathanbuchh.github.io/tree/main/.github/workflows)
-
-### Minification
-
-I use a GitHub action to publish this site to another branch so that I can automatically compress HTML. This saves just a little extra bandwidth when a user loads up my website. It's completely unnecessary and I love it.
-
-I use [@tmcw](https://github.com/tmcw)'s [premature-optimizer](https://github.com/tmcw/premature-optimizer) because it handles inline CSS really well. It removes all extra characters. For example: `a{color:#000;}` becomes `a{color:#000}`
+`hugo server up`
 
 ### Linkrot
 
-I also use [notfoundbot](https://github.com/tmcw/notfoundbot) to check for outdated links. No one likes clicking on a link and finding out that the site doesn't exist. It's nice that notfoundbot automatically finds the website in the [Internet Archive](https://archive.org/)
+I use [notfoundbot](https://github.com/tmcw/notfoundbot) to check for outdated links. No one likes clicking on a link and finding out that the site doesn't exist. It's nice that notfoundbot automatically finds the website in the [Internet Archive](https://archive.org/)
 
 ### Google Lighthouse
+
+**Update:** I'm pausing until https://github.com/gohugoio/hugo/issues/9054 gets resolved, since I can't get 100 on accessibility using footnotes.
 
 I love getting 100 in every section (except [PWA](https://developers.google.com/web/ilt/pwa/lighthouse-pwa-analysis-tool)) of [Google's Lighthouse report](https://developers.google.com/web/tools/lighthouse/), so I use [lighthouseci](https://github.com/GoogleChrome/lighthouse-ci) to make sure my website always publishes with full scores. It's annoying to run tests on each page manually so lighthouse-ci does it for me.
 

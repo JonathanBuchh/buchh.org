@@ -1,4 +1,4 @@
-name: CI
+name: GitHub Pages
 on:
   push:
     branches:
@@ -12,44 +12,25 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          ruby-version: 2.6
-          bundler-cache: true
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
+          hugo-version: 'latest'
       - name: Build site
-        run: |
-          bundle install
-          bundle exec jekyll build
-      - name: Run Lighthouse CI
-        run: |
-          npm install -g @lhci/cli@0.8.x
-          lhci autorun
-        env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
-      - name: Compress
-        run: |
-          cd _site/
-          yarn add https://github.com/tmcw/premature-optimizer
-          for file in $(find *.html); do npx premature-optimizer $file; done
-      - name: Commit
-        run: |
-          cd _site/
-          git config --global user.name "Jonathan Buchholz"
-          git config --global user.email "63243849+JonathanBuchh@users.noreply.github.com"
-          git init
-          git remote add origin https://github.com/JonathanBuchh/jonathanbuchh.github.io
-          echo node_modules > .gitignore
-          git add .
-          git commit -m "Deploy _site/ to gh-pages"
-      - name: Push
-        uses: ad-m/github-push-action@master
+        run: hugo --minify
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v1
+      #   with:
+      #     node-version: 12.x
+      # - name: Run Lighthouse CI
+      #   run: |
+      #     npm install -g @lhci/cli@0.8.x
+      #     lhci autorun
+      #   env:
+      #     LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.PAT }}
-          branch: gh-pages
-          force: true
-          directory: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
