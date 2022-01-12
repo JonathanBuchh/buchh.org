@@ -1,0 +1,8 @@
+baseURL = "https://buchh.org"
+title = "Jonathan Buchholz"
+
+[frontmatter]
+date  = [":filename", ":default"]
+
+[markup.goldmark.renderer]
+unsafe = true

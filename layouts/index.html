@@ -1,0 +1,10 @@
+{{ partial "head.html" . }}
+<body>
+{{ partial "nav.html" . }}
+<h1>{{ $.Title }}</h1>
+{{.Content}}
+{{ range where .Site.RegularPages "Section" "posts" }}
+<p><a href="{{.Permalink}}">{{.Title}}</a>: {{ .Description }}</p>
+{{ end }}
+{{ partial "footer.html" . }}
+</html>
