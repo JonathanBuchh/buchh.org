@@ -6,7 +6,7 @@ description: About Jonathan Buchholz.
 
 Hi, I'm Jonathan Buchholz, a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
 
-The content of this website is published with a [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/) and the [source code](https://github.com/JonathanBuchh/jonathanbuchh.github.io) has an [MIT License](https://github.com/JonathanBuchh/jonathanbuchh.github.io/blob/main/LICENSE).
+The content of this website is published under a [CC BY-NC-SA license](https://creativecommons.org/licenses/by-nc-sa/4.0/) and the [source code](https://github.com/JonathanBuchh/jonathanbuchh.github.io) is under a [MIT License](https://github.com/JonathanBuchh/jonathanbuchh.github.io/blob/main/LICENSE).
 
 ## Colophon
 
