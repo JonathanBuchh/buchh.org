@@ -1,6 +1,6 @@
 # jonathanbuchh.github.io
 
-My [personal website](https://buchh.org).
+My [personal website](https://buchh.org) published on the `gh-pages` branch.
 
 ## Why [Hugo](https://gohugo.io)?
 
