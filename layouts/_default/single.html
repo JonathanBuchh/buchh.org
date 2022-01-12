@@ -2,6 +2,7 @@
 <body>
     {{ partial "nav.html" . }}
     <h1>{{ $.Title }}</h1>
+    {{ if .Date }}<small>Published <b>{{.Date.Format "January 2, 2006"}}</b>; check git <a href="https://github.com/JonathanBuchh/jonathanbuchh.github.io/commits/main">commit history</a> for changes</small>{{ end }}
     {{.Content}}
     {{ partial "footer.html" . }}
 </body>
