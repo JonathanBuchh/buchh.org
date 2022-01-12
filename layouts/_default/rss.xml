@@ -16,10 +16,7 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
     <description>Jonathan Buchholz • buchh.org</description>
-<<<<<<< HEAD
-=======
     {{ range $pages }}
->>>>>>> beeddd2 (Use custom RSS template)
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
