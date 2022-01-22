@@ -10,6 +10,12 @@ description: Jonathan Buchholz's Reading Log
 - Not All of Us Are Saints (David Hilfiker)
 - The Power of Habit (Charles Duhigg)
 
+### 2022
+
+#### Unranked
+
+- Ready Player One (Ernest Cline)
+
 ### 2021
 
 #### Ranked
