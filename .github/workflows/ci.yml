@@ -19,7 +19,7 @@ jobs:
       - name: Build site
         run: |
           hugo --minify
-          ln -s public/posts/index.xml public/rss.xml
+          cp public/posts/index.xml public/rss.xml
       # - name: Set up Node.js
       #   uses: actions/setup-node@v1
       #   with:
