@@ -1,10 +1,73 @@
 {{ partial "head.html" . }}
+<style>
+body {
+  display: flex;
+  flex-direction: row;
+}
+section {
+  flex-grow: 1;
+}
+aside {
+  width: 40%;
+}
+aside img {
+  display: block;
+  margin: 0 auto 1rem;
+  border-radius: 5px;
+}
+aside dt {
+  font-size: 0.9rem;
+}
+aside dd {
+  margin-left: 0;
+}
+aside dd:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 640px) {
+  nav {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  aside {
+    display: none;
+  }
+}
+dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0.2rem 1rem;
+}
+dl dt {
+  font-weight: bold;
+  grid-column-start: 1;
+}
+dl dd {
+  grid-column-start: 2;
+  margin: 0;
+}
+</style>
 <body>
-{{ partial "nav.html" . }}
-<h1>{{ $.Title }}</h1>
-{{.Content}}
-{{ range where .Site.RegularPages "Section" "posts" }}
-<p><a href="{{.Permalink}}">{{.Title}}</a>: {{ .Description }}</p>
-{{ end }}
-{{ partial "footer.html" . }}
+  <section>
+  {{ partial "nav.html" . }}
+    <h1>{{ $.Title }}</h1>
+      {{ range where .Site.RegularPages "Section" "posts" }}
+      <p><a href="{{.Permalink}}">{{.Title}}</a>: {{ .Description }}</p>
+      {{ end }}
+  </section>
+  <aside>
+    <img src="/portrait.webp" alt="Portrait photo of Jonathan Buchholz" width="148" height="148"/>
+    <p style="text-align: center"><a href=/books>Reading Log</a> · <a href=/about>About</a> · <a href=/rss.xml>RSS</a></p>
+    <dl class="external-links">
+      <dt>email</dt>
+      <dd><a href="mailto:jonathan@buchh.org">jonathan@buchh.org</a></dd>
+      <dt>sourcehut</dt>
+      <dd><a href="https://sr.ht/~jonathanbuchh">~jonathanbuchh</a></dd>
+      <!-- <dt>pgp</dt> -->
+      <!-- <dd><a href="/publickey.txt">7BC79407090047CA</a></dd> -->
+    </dl>
+    <small>{{.Content}}</small>
+  </aside>
+</body>
 </html>
