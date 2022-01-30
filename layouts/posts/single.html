@@ -1,12 +1,13 @@
 {{ partial "head.html" . }}
 <body>
-{{ partial "nav.html" . }}
     <h1>
         {{ $.Title }}
         <small><b>{{.Date.Format "January 2, 2006"}}</b> on <a href="/">buchh.org</a>; check git <a href="https://github.com/JonathanBuchh/jonathanbuchh.github.io/commits/main">commit history</a> for changes</small>
     </h1>
     <main>
     {{.Content}}
+    <hr>
+    {{ partial "nav.html" . }}
     {{ partial "footer.html" . }}
     </main>
 </body>
