@@ -31,16 +31,13 @@
       font-family: "SF Mono", Monaco, monospace;
       overflow:auto;
     }
-    @media(prefers-color-scheme:dark) {
+    @media (prefers-color-scheme: dark) {
       body {
-        background: #000;
-        color: #fff;
+        background: #000000;
+        filter: invert(1);
       }
-      a {
-        color: #ffff11;
-      }
-      a:visited {
-        color: #aae574;
+      img,.cp_embed_wrapper,pre {
+        filter: invert(1);
       }
     }
     </style>
