@@ -5,7 +5,7 @@
     <h1>{{ $.Title }}</h1>
       {{ range where .Site.RegularPages "Section" "posts" }}
       <p style="margin-bottom: 0">{{.Date.Format "January 2, 2006"}}</p>
-      <p style="margin-top: 0"><a href="{{.Permalink}}">{{.Title}}</a>: {{ .Description }}</p>
+      <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
       {{ end }}
   </section>
   <aside>
