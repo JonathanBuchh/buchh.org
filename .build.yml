@@ -14,4 +14,5 @@ tasks:
     cd public
     tar -cvz . > ../../site.tar.gz
 - upload: |
+    acurl -f https://pages.sr.ht/publish/buchh.org -Fcontent=@site.tar.gz
     acurl -f https://pages.sr.ht/publish/jonathanbuchh.srht.site -Fcontent=@site.tar.gz
