@@ -8,11 +8,11 @@ packages:
   - hugo
 tasks:
 - package: |
-    cd buchh.org
+    cd $site
     hugo --minify
     cp public/posts/index.xml public/rss.xml
     cd public
     tar -cvz . > ../../site.tar.gz
 - upload: |
-    acurl -f https://pages.sr.ht/publish/buchh.org -Fcontent=@site.tar.gz
+    acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
     acurl -f https://pages.sr.ht/publish/jonathanbuchh.srht.site -Fcontent=@site.tar.gz
