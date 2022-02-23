@@ -1,19 +1,17 @@
 image: alpine/latest
-oauth: pages.sr.ht/PAGES:RW
-environment:
-  site: buchh.org
-sources:
-  - https://git.sr.ht/~jonathanbuchh/buchh.org
 packages:
   - hugo
+  - make
+oauth: pages.sr.ht/PAGES:RW
 tasks:
+- build: |
+    cd buchh.org
+    make hugo
 - package: |
-    cd $site
-    hugo --minify
-    cp public/posts/index.xml public/rss.xml
-    cd public
-    tar -cvz . > ../../site.tar.gz
-- upload: |
+    cd buchh.org
+    make package
+- publish: |
+    cd buchh.org
     acurl https://pages.sr.ht/query \
       -Foperations='{ "query": "mutation Publish($domain: String!, $content: Upload!, $siteConfig: SiteConfig) { publish(domain: $domain, content: $content, siteConfig: $siteConfig) { id }}", "variables" : { "domain": "buchh.org", "content": null, "siteConfig": { "notFound": "/404.html" } } }' \
       -Fmap='{ "site": ["variables.content"] }' \
