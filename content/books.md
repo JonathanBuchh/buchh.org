@@ -12,6 +12,8 @@ description: Jonathan Buchholz's Reading Log
 
 ### 2022
 
+1. █████████ █████ (███████ ███████████)
+
 #### Unranked
 
 - Ready Player One (Ernest Cline)
