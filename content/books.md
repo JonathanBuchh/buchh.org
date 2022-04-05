@@ -12,7 +12,7 @@ description: Jonathan Buchholz's Reading Log
 
 ### 2022
 
-1. █████████ █████ (███████ ███████████)
+1. \<undisclosed book about farm animals\> (\<some author\>)
 
 #### Unranked
 
