@@ -2,8 +2,6 @@
 title: About
 description: About Jonathan Buchholz.
 ---
-<img src="/portrait.webp" alt="Jonathan Buchholz" style="float:right;margin:0 0 5px 15px;width:150px;border-radius: 5px;height:auto">
-
 Hi, I'm Jonathan Buchholz, a junior at Thomas Jefferson High School for Science and Technology chasing the Lord.
 
 ## Essential Software
