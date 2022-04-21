@@ -65,8 +65,9 @@
 &lt;h2 id="essential-software">Essential Software&lt;/h2>
 &lt;ul>
 &lt;li>(n)vim&lt;/li>
-&lt;li>MailMate&lt;/li>
+&lt;li>Alfred&lt;/li>
 &lt;li>LuLu&lt;/li>
+&lt;li>MailMate&lt;/li>
 &lt;/ul>
 &lt;h2 id="colophon">Colophon&lt;/h2>
 &lt;p>This website uses &lt;a href="https://gohugo.io">Hugo&lt;/a> as a &lt;a href="https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators">static site generator&lt;/a> and is hosted by &lt;a href="https://pages.github.com">GitHub pages&lt;/a> for free. I have a more detailed description of my setup on my website&amp;rsquo;s &lt;a href="https://github.com/JonathanBuchh/buchh.org#readme">&lt;code>README.md&lt;/code>&lt;/a> on GitHub.&lt;/p>
