@@ -13,10 +13,14 @@ description: Jonathan Buchholz's Reading Log
 ### 2022
 
 1. \<undisclosed book about farm animals\> (\<some author\>)
+2. Permanent Record (Edward Snowden)
 
 #### Unranked
 
+- City of Glass (Paul Auster)
 - Ready Player One (Ernest Cline)
+- The Adventures of Huckleberry Finn (Mark Twain)
+
 
 ### 2021
 
