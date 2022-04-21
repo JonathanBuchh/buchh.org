@@ -7,8 +7,9 @@ Hi, I'm Jonathan Buchholz, a junior at Thomas Jefferson High School for Science 
 ## Essential Software
 
 - (n)vim
-- MailMate
+- Alfred
 - LuLu
+- MailMate
 
 ## Colophon
 
