@@ -15,23 +15,55 @@
       font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
       line-height: 1.6;
     }
+    main {
+      letter-spacing: -.015em;
+    }
+    main a {
+      font-weight: 500;
+    }
     h1 {
       margin-top: 0;
+      font-size: 32px;
+      letter-spacing: 0.004em;
     }
     h1 small {
-      display:block;
-      font-size:1rem;
+      display: block;
+      font-size: 1rem;
       font-weight: normal;
+    }
+    h1, h2 {
+      margin-bottom: 0.5rem;
+      line-height: 1.25;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 1.5rem;
+      letter-spacing: 0.009em;
     }
     code {
       font-family: "SF Mono", Monaco, monospace;
       overflow:auto;
     }
+    a {
+      color: #000;
+      text-decoration-skip-ink: auto;
+    }
     @supports (color-scheme: dark light) {
       @media screen and (prefers-color-scheme: dark) {
-        a:link {color: #9e9eff;}
-        a:visited {color: #d0adf0;}
-        a:active {color: red;}
+        a {
+          color: #fff;
+        }
+      }
+    }
+    @media screen and (min-width:1025px) {
+      nav {
+        position: absolute;
+        top: 35px;
+        right: 50%;
+        margin-right: 340px !important;
+      }
+      nav hr {
+        display: none;
       }
     }
     </style>

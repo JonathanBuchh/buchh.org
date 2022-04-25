@@ -1,9 +1,11 @@
 {{ partial "head.html" . }}
 <body>
     {{ partial "nav.html" . }}
+    <main>
     <h1>{{ $.Title }}</h1>
     {{ if .Date }}<small>Published <b>{{.Date.Format "January 2, 2006"}}</b>; check git <a href="https://github.com/JonathanBuchh/jonathanbuchh.github.io/commits/main">commit history</a> for changes</small>{{ end }}
     {{.Content}}
+    </main>
     {{ partial "footer.html" . }}
 </body>
 </html>

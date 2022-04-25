@@ -1,11 +1,13 @@
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 <body>
+    <main>
     <h1>
         {{ $.Title }}
         <small><b>{{.Date.Format "January 2, 2006"}}</b> on <a href="/">buchh.org</a></small>
     </h1>
     {{.Content}}
+    </main>
     <hr>
     {{ partial "footer.html" . }}
 </body>
