@@ -8,7 +8,7 @@ Hi, I'm Jonathan Buchholz, a junior at Thomas Jefferson High School for Science 
 
 - (n)vim
 - Alfred
-- LuLu
+- Little Snitch
 - MailMate
 
 ## Colophon
