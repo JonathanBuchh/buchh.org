@@ -2,6 +2,11 @@
 title: Reading Log
 description: Jonathan Buchholz's Reading Log
 ---
+
+Books listed do not constitute endorsement and a high/low ranking does always
+mean they do or do not align with my beliefs – rankings reflect the value I got
+out of a book.
+
 ## Hall of Fame
 
 - The Bible (Man Upstairs)
@@ -14,6 +19,7 @@ description: Jonathan Buchholz's Reading Log
 
 1. \<undisclosed book about farm animals\> (\<some author\>)
 2. Permanent Record (Edward Snowden)
+3. The Art of Invisibility (Kevin Mitnick)
 
 #### Unranked
 
