@@ -19,7 +19,7 @@ out of a book.
 
 ### Ranked
 
-1. \<undisclosed book about farm animals\> (\<some author\>)
+1. Excellent Sheep (William Deresiewicz)
 2. Permanent Record (Edward Snowden)
 3. The Art of Invisibility (Kevin Mitnick)
 
