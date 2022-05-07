@@ -1,0 +1,39 @@
+---
+title: "Re: Why We Admire Zelensky"
+date: 2022-05-07
+description: My submission to The New York Times's student letter writing competition
+url: nyt-letter
+---
+
+This is the letter I submitted to The New York Times's [student letter writing
+competition]. Although my letter was [not selected], I still like what I wrote
+and am publishing it here[^1]. It is a response to an opinion piece titled:
+[Why We Admire Zelensky].
+
+[student letter writing competition]: https://www.nytimes.com/2022/04/18/opinion/letters/high-school-letters-competition.html
+[not selected]: https://www.nytimes.com/2022/05/07/opinion/letters/high-school-student-letters.html
+[Why We Admire Zelensky]: https://www.nytimes.com/2022/04/19/opinion/why-we-admire-zelensky.html
+
+[^1]: One of the many benefits of having your own website :)
+
+**To the Editor:**
+
+I cannot stop from wondering, "Is this real life?" After watching the first
+episode of [Servant of the People], both the name of Zelensky's political party
+and TV show he starred as president, my eyes were opened to the striking
+similarities between the show and reality. His character and he were elected
+for the same reason:  "to bring professional, decent people to power." As an
+outsider, Zelensky's story sounds like a fairytale, but it is not. This is real
+life.
+
+[Servant of the People]: https://en.wikipedia.org/wiki/Servant_of_the_People_(TV_series)
+
+As I, along with the rest of the world, hold my breath as we watch Russia's
+invasion of Ukraine unfold, I have trouble accepting real life. My generation
+does not know what to expect. We are the oldest alive to have never experienced
+widespread global conflict. We did not live through the Cold War like my
+parents; we never grew up during World War II like my grandparents; and we never
+saw the end of World War I like my great grandparents. We fear what might happen
+with more direct foreign involvement in this conflict. Despite the imminent
+threat of death, Zelensky and the Ukrainians' resilience gives me hope that
+democracy and freedom can prevail.
