@@ -15,22 +15,24 @@ out of a book.
 - Not All of Us Are Saints (David Hilfiker)
 - The Power of Habit (Charles Duhigg)
 
-### 2022
+## 2022
+
+### Ranked
 
 1. \<undisclosed book about farm animals\> (\<some author\>)
 2. Permanent Record (Edward Snowden)
 3. The Art of Invisibility (Kevin Mitnick)
 
-#### Unranked
+### Unranked
 
 - City of Glass (Paul Auster)
 - Ready Player One (Ernest Cline)
 - The Adventures of Huckleberry Finn (Mark Twain)
 
 
-### 2021
+## 2021
 
-#### Ranked
+### Ranked
 
 1. 1984 (George Orwell)
 2. Can't Hurt Me (David Goggins)
@@ -48,7 +50,7 @@ out of a book.
 14. Things Fall Apart (Chinua Achebe)
 15. Think Like a Monk (Jay Shetty)
 
-#### Unranked
+### Unranked
 
 - Allegiant (Veronica Roth)
 - Catching Fire (Suzanne Collins)
@@ -61,9 +63,9 @@ out of a book.
 - The Hunger Games (Suzanne Collins)
 - We Can Be Mended (Veronica Roth)
 
-### 2020
+## 2020
 
-#### Ranked
+### Ranked
 
 1. The Bible (Man Upstairs)
 2. How to Win Friends and Influence People (Dale Carnegie)
@@ -82,18 +84,18 @@ out of a book.
 15. The Third Door (Alex Banayan)
 16. Linchpin (Seth Godin)
 
-### 2019
+## 2019
 
-#### Ranked
+### Ranked
 
 1. The Prodigal God (Timothy Keller)
 2. Factfulness (Hans Rosling)
 3. The 4-Hour Workweek (Tim Ferriss)
 4. The Tools of Titans (Tim Ferriss)
 
-### 2018
+## 2018
 
-#### Ranked
+### Ranked
 
 1. Just Mercy (Bryan Stevenson)
 2. The Language of God (Francis Collins)
