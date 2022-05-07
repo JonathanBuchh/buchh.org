@@ -8,59 +8,5 @@
       <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
       {{ end }}
   </section>
-  <aside>
-  <style>
-  body {
-    display: flex;
-    flex-direction: row;
-  }
-  section {
-    flex-grow: 1;
-  }
-  aside {
-    width: 40%;
-  }
-  aside img {
-    display: block;
-    margin: 0 auto 1rem;
-    border-radius: 5px;
-  }
-  aside dt {
-    font-size: 0.9rem;
-  }
-  aside dd {
-    margin-left: 0;
-  }
-  aside dd:not(:last-child) {
-    margin-bottom: 0.5rem;
-  }
-  @media (min-width: 640px) {
-    nav {
-      display: none;
-    }
-  }
-  @media (max-width: 640px) {
-    aside {
-      display: none;
-    }
-  }
-  dl {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 0.2rem 1rem;
-  }
-  dl dt {
-    font-weight: bold;
-    grid-column-start: 1;
-  }
-  dl dd {
-    grid-column-start: 2;
-    margin: 0;
-  }
-  </style>
-    <img src="/portrait.webp" alt="Portrait photo of Jonathan Buchholz" width="148" height="148"/>
-    <p style="text-align: center"><a href=/about>About</a> · <a href=https://buchh.fun>Projects</a> · <a href=/books>Reading Log</a> · <a href=/rss.xml>RSS</a></p>
-    <small>{{.Content}}</small>
-  </aside>
 </body>
 </html>
