@@ -4,7 +4,7 @@ description: Jonathan Buchholz's Reading Log
 ---
 
 Books listed do not constitute endorsement and a high/low ranking does always
-mean they do or do not align with my beliefs – rankings reflect the value I got
+mean they do or do not align with my beliefs—rankings reflect the value I got
 out of a book.
 
 ## Hall of Fame
