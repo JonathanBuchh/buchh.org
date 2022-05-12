@@ -9,26 +9,32 @@ out of a book.
 
 ## Hall of Fame
 
-- The Bible (Man Upstairs)
+- The Bible[^Perell] (Man Upstairs)
 - How to Win Friends and Influence People (Dale Carnegie)
 - Just Mercy (Bryan Stevenson)
 - Not All of Us Are Saints (David Hilfiker)
 - The Power of Habit (Charles Duhigg)
 
+[^Perell]: David Perell (nonbeliever) wrote a great essay on [why one should
+read the Bible as a nonbeliever].
+
+[why one should read the Bible as a nonbeliever]:
+https://perell.com/essay/the-book-you-need-to-read/
+
 ## 2022
 
 ### Ranked
 
-1. Excellent Sheep (William Deresiewicz)
-2. Permanent Record (Edward Snowden)
-3. The Art of Invisibility (Kevin Mitnick)
+1. Between Two Kingdoms (Suleika Jaouad)
+2. Excellent Sheep (William Deresiewicz)
+3. Permanent Record (Edward Snowden)
+4. The Art of Invisibility (Kevin Mitnick)
 
 ### Unranked
 
 - City of Glass (Paul Auster)
 - Ready Player One (Ernest Cline)
 - The Adventures of Huckleberry Finn (Mark Twain)
-
 
 ## 2021
 
