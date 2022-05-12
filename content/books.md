@@ -16,7 +16,7 @@ out of a book.
 - The Power of Habit (Charles Duhigg)
 
 [^Perell]: David Perell (nonbeliever) wrote a great essay on [why one should
-read the Bible as a nonbeliever].
+read the Bible—even if you are not a Christian].
 
 [why one should read the Bible as a nonbeliever]:
 https://perell.com/essay/the-book-you-need-to-read/
