@@ -27,8 +27,9 @@ https://perell.com/essay/the-book-you-need-to-read/
 
 1. Between Two Kingdoms (Suleika Jaouad)
 2. Excellent Sheep (William Deresiewicz)
-3. Permanent Record (Edward Snowden)
-4. The Art of Invisibility (Kevin Mitnick)
+3. This Is Water (David Foster Wallace)
+4. Permanent Record (Edward Snowden)
+5. The Art of Invisibility (Kevin Mitnick)
 
 ### Unranked
 
