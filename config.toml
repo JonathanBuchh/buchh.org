@@ -1,5 +1,0 @@
-baseURL = "https://buchh.org"
-title = "Jonathan Buchholz"
-
-[markup.goldmark.renderer]
-unsafe = true
