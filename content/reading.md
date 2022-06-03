@@ -18,8 +18,7 @@ out of a book.
 [^Perell]: David Perell (nonbeliever) wrote a great essay on [why one should
 read the Bible—even if you are not a Christian].
 
-[why one should read the Bible as a nonbeliever]:
-https://perell.com/essay/the-book-you-need-to-read/
+[why one should read the Bible as a nonbeliever]: https://perell.com/essay/the-book-you-need-to-read/
 
 ## 2022
 
@@ -37,6 +36,7 @@ https://perell.com/essay/the-book-you-need-to-read/
 - City of Glass (Paul Auster)
 - Ready Player One (Ernest Cline)
 - The Adventures of Huckleberry Finn (Mark Twain)
+- The Fault in Our Stars (John Green)
 
 ## 2021
 
