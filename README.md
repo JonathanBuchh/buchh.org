@@ -23,4 +23,4 @@ generator an obvious choice.
 I convert images to `.webp` because they weigh less than `.jpg` images and make
 them as small as possible (without Lighthouse getting mad at me). I use
 [ImageMagick](https://imagemagick.org/) with the following command: `convert
-image.jpg -resize x400 image.webp`r
+image.jpg -resize x400 image.webp`
