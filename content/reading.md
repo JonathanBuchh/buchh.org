@@ -9,27 +9,23 @@ out of a book.
 
 ## Hall of Fame
 
-- The Bible[^Perell] (Man Upstairs)
+- The Bible (Man Upstairs)
 - How to Win Friends and Influence People (Dale Carnegie)
 - Just Mercy (Bryan Stevenson)
 - Not All of Us Are Saints (David Hilfiker)
 - The Power of Habit (Charles Duhigg)
-
-[^Perell]: David Perell (nonbeliever) wrote a great essay on [why one should
-read the Bible—even if you are not a Christian].
-
-[why one should read the Bible as a nonbeliever]: https://perell.com/essay/the-book-you-need-to-read/
 
 ## 2022
 
 ### Ranked
 
 1. Between Two Kingdoms (Suleika Jaouad)
-2. Excellent Sheep (William Deresiewicz)
-3. Crying in H Mart (Michelle Zauner)
-4. This Is Water (David Foster Wallace)
-5. Permanent Record (Edward Snowden)
-6. The Art of Invisibility (Kevin Mitnick)
+2. Slaughterhouse-Five (Kurt Vonnegut)
+3. Excellent Sheep (William Deresiewicz)
+4. Crying in H Mart (Michelle Zauner)
+5. This Is Water (David Foster Wallace)
+6. Permanent Record (Edward Snowden)
+7. The Art of Invisibility (Kevin Mitnick)
 
 ### Unranked
 
