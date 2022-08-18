@@ -19,13 +19,14 @@ out of a book.
 
 ### Ranked
 
-1. Between Two Kingdoms (Suleika Jaouad)
-2. Slaughterhouse-Five (Kurt Vonnegut)
-3. Excellent Sheep (William Deresiewicz)
-4. Crying in H Mart (Michelle Zauner)
-5. This Is Water (David Foster Wallace)
-6. Permanent Record (Edward Snowden)
-7. The Art of Invisibility (Kevin Mitnick)
+1. Why I Am Not Going to Buy a Computer (Wendell Berry)
+2. Between Two Kingdoms (Suleika Jaouad)
+3. Slaughterhouse-Five (Kurt Vonnegut)
+4. Excellent Sheep (William Deresiewicz)
+5. Crying in H Mart (Michelle Zauner)
+6. This Is Water (David Foster Wallace)
+7. Permanent Record (Edward Snowden)
+8. The Art of Invisibility (Kevin Mitnick)
 
 ### Unranked
 
