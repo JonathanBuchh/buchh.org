@@ -23,10 +23,11 @@ out of a book.
 2. Between Two Kingdoms (Suleika Jaouad)
 3. Slaughterhouse-Five (Kurt Vonnegut)
 4. Excellent Sheep (William Deresiewicz)
-5. Crying in H Mart (Michelle Zauner)
-6. This Is Water (David Foster Wallace)
-7. Permanent Record (Edward Snowden)
-8. The Art of Invisibility (Kevin Mitnick)
+5. Baby Steps Millionaires (Dave Ramsey)
+6. Crying in H Mart (Michelle Zauner)
+7. This Is Water (David Foster Wallace)
+8. Permanent Record (Edward Snowden)
+9. The Art of Invisibility (Kevin Mitnick)
 
 ### Unranked
 
