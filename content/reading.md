@@ -19,16 +19,17 @@ out of a book.
 
 ### Ranked
 
-1. Why I Am Not Going to Buy a Computer (Wendell Berry)
-2. Between Two Kingdoms (Suleika Jaouad)
-3. Slaughterhouse-Five (Kurt Vonnegut)
-4. Excellent Sheep (William Deresiewicz)
-5. The Total Money Makeover (Dave Ramsey)
-6. Baby Steps Millionaires (Dave Ramsey)
-7. Crying in H Mart (Michelle Zauner)
-8. This Is Water (David Foster Wallace)
-9. Permanent Record (Edward Snowden)
-10. The Art of Invisibility (Kevin Mitnick)
+1. Die With Zero (Bill Perkins)
+2. Why I Am Not Going to Buy a Computer (Wendell Berry)
+3. Between Two Kingdoms (Suleika Jaouad)
+4. Slaughterhouse-Five (Kurt Vonnegut)
+5. Excellent Sheep (William Deresiewicz)
+6. The Total Money Makeover (Dave Ramsey)
+7. Baby Steps Millionaires (Dave Ramsey)
+8. Crying in H Mart (Michelle Zauner)
+9. This Is Water (David Foster Wallace)
+10. Permanent Record (Edward Snowden)
+11. The Art of Invisibility (Kevin Mitnick)
 
 ### Unranked
 
