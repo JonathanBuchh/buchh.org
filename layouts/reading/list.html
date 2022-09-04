@@ -1,0 +1,22 @@
+{{ partial "head.html" . }}
+<body>
+  {{ partial "nav.html" . }}
+  <main>
+    <h1>{{ $.Title }}</h1>
+      <div class="books">
+        {{ range where .Site.RegularPages "Section" "reading" }}
+        {{ with .Content }}
+        <div><a href="{{ .relpermalink }}">{{ .title }}</a></div>
+        {{ else }}
+        <div>{{ .Title }}</div>
+        {{ end }}
+        <div>{{ .Params.Author }}</div>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        <div>
+          <div class="star" style="width: {{mul 13 .Params.Rating }}px"></div>
+        </div>
+        {{ end }}
+      </div>
+  </main>
+</body>
+</html>
