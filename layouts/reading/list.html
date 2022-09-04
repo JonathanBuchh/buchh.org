@@ -5,10 +5,10 @@
     <h1>{{ $.Title }}</h1>
       <div class="books">
         {{ range where .Site.RegularPages "Section" "reading" }}
-        {{ with .Content }}
-        <div><a href="{{ .relpermalink }}">{{ .title }}</a></div>
+        {{ if .Content }}
+        <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         {{ else }}
-        <div>{{ .Title }}</div>
+        <div style="font-weight: 500">{{ .Title }}</div>
         {{ end }}
         <div>{{ .Params.Author }}</div>
         <time>{{ .Date.Format "2006-01-02" }}</time>
