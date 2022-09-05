@@ -10,18 +10,22 @@
     <script defer data-domain="buchh.org" src="https://plausible.buchh.cloud/js/plausible.js"></script>
     <style>
     body {
-      max-width: 640px;
-      margin: auto;
       font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Segoe UI, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Arial, sans-serif;
-      padding: 1.5em;
+      padding: 0 20px;
       line-height: 1.6;
-      letter-spacing: -.015em;
       overflow-y: scroll;
+    }
+    .limiter, main {
+      max-width: 640px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: auto;
+      margin-right: auto;
     }
     a {
       color: #000;
     }
-    h1 span {
+    .subtitle {
       font-weight: normal;
     }
     h1 small {
@@ -32,9 +36,6 @@
     code {
       font-family: "SF Mono", Menlo, Consolas, monospace;
       overflow: auto;
-    }
-    nav, nav h1{
-      font-size: 1em;
     }
     .books {
       display: grid;
@@ -69,7 +70,7 @@
     @media screen and (min-width:1075px) {
       nav {
         position: absolute;
-        margin-top: 2em;
+        top: 40px;
         right: 50%;
         margin-right: 340px !important;
       }
@@ -78,7 +79,7 @@
       }
     }
     @media screen and (max-width:640px) {
-      .limiter {
+      .limiter, main {
           width: auto;
       }
       .books {
