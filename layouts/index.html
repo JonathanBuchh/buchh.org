@@ -2,7 +2,23 @@
 <body>
   {{ partial "nav.html" . }}
   <main>
-      <h1>Writing</h1>
+      <h2>Reading</h2>
+      <p>Here's a list of the last five books I've read. See my <a href="/reading">reading log</a> for a more complete list.</p>
+      <div class="books">
+      {{ range first 5 (where .Site.RegularPages "Section" "reading")}}
+        {{ if .Content }}
+        <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+        {{ else }}
+        <div style="font-weight: 500">{{ .Title }}</div>
+      {{ end }}
+      <div>{{ .Params.Author }}</div>
+      <time>{{ .Date.Format "2006-01-02" }}</time>
+      <div>
+        <div class="star" style="width: {{mul 13 .Params.Rating }}px"></div>
+      </div>
+      {{ end }}
+      </div>
+      <h2>Writing</h2>
       {{ range where .Site.RegularPages "Section" "posts" }}
       <p style="margin-bottom: 0">{{.Date.Format "January 2, 2006"}}</p>
       <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
