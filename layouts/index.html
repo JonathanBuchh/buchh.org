@@ -4,7 +4,6 @@
   <main>
       <h1>Jonathan Buchholz</h1>
       <h2>Reading</h2>
-      <p>Here's a list of the last five books I've read. See my <a href="/reading">reading log</a> for a more complete list.</p>
       <div class="books">
       {{ range first 5 (where .Site.RegularPages "Section" "reading")}}
         {{ if .Content }}
@@ -18,6 +17,7 @@
         <div class="star" style="width: {{mul 13 .Params.Rating }}px"></div>
       </div>
       {{ end }}
+      <p style="margin: 0;"><a href="/reading">See more...</a></p>
       </div>
       <h2>Writing</h2>
       {{ range where .Site.RegularPages "Section" "posts" }}
