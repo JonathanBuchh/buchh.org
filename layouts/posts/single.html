@@ -3,7 +3,8 @@
     {{ partial "nav.html" . }}
     <main>
     <h1>
-        {{ $.Title }}<span class="subtitle">: {{ $.Description }}</span>
+        {{ $.Title }}<span class="subtitle"> </span>
+        <small>{{ $.Description }}</small>
         <small><b>{{.Date.Format "January 2, 2006"}}</b></small>
     </h1>
     {{.Content}}

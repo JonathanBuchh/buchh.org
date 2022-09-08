@@ -3,6 +3,12 @@
     {{ partial "nav.html" . }}
     <main>
     <h1>{{ $.Title }}</h1>
+    {{ if eq .Title "Writing" }}
+    {{ range where .Site.RegularPages "Section" "posts" }}
+    <p style="margin-bottom: 0">{{.Date.Format "January 2, 2006"}}</p>
+    <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
+    {{ end }}
+    {{ end }}
     {{.Content}}
     <hr>
     {{ partial "footer.html" . }}
