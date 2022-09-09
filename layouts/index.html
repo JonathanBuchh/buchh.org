@@ -20,10 +20,12 @@
       <p style="margin: 0;"><a href="/reading">See more...</a></p>
       </div>
       <h2>Writing</h2>
-      {{ range where .Site.RegularPages "Section" "posts" }}
-      <p style="margin-bottom: 0">{{.Date.Format "January 2, 2006"}}</p>
-      <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
-      {{ end }}
+      <div class="writing">
+        {{ range where .Site.RegularPages "Section" "posts" }}
+        <p style="margin-bottom: 0">{{.Date.Format "January 2, 2006"}}</p>
+        <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
+        {{ end }}
+      </div>
   </main>
 </body>
 </html>
