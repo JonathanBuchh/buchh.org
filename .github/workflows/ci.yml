@@ -20,16 +20,16 @@ jobs:
         run: |
           make hugo
           cp public/posts/index.xml public/rss.xml
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v1
-      #   with:
-      #     node-version: 12.x
-      # - name: Run Lighthouse CI
-      #   run: |
-      #     npm install -g @lhci/cli@0.8.x
-      #     lhci autorun
-      #   env:
-      #     LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.8.x
+          lhci autorun
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
