@@ -4,7 +4,7 @@ module.exports = {
       target: 'temporary-public-storage',
     },
     collect: {
-      staticDistDir: "./_site",
+      staticDistDir: "./public",
       numberOfRuns: 1,
     },
     assert: {
