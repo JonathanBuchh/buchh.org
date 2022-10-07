@@ -3,7 +3,7 @@
   {{ partial "nav.html" . }}
   <main>
       <h1>Jonathan Buchholz</h1>
-      <h2>Reading</h2>
+      <h2><a href="/reading">Reading</a></h2>
       <div class="books">
       {{ range first 5 (where .Site.RegularPages "Section" "reading")}}
         {{ if .Content }}
@@ -19,7 +19,7 @@
       {{ end }}
       <p style="margin: 0;"><a href="/reading">See more...</a></p>
       </div>
-      <h2>Writing</h2>
+      <h2><a href="/writing">Writing</a></h2>
       <div class="writing">
         {{ range where .Site.RegularPages "Section" "posts" }}
         <p style="margin-bottom: 0">{{.Date.Format "January 2, 2006"}}</p>
