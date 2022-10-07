@@ -3,8 +3,8 @@ title: About
 description: About Jonathan Buchholz.
 ---
 
-Hi, I'm Jonathan Buchholz, a junior at Thomas Jefferson High School for Science
-and Technology chasing the Lord.
+Hi, I'm Jonathan Buchholz, a senior at Thomas Jefferson High School for Science
+and Technology.
 
 ## Essential Software
 
