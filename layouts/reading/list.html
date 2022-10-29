@@ -2,7 +2,7 @@
 <body>
   {{ partial "nav.html" . }}
   <main>
-    <h1>{{ $.Title }}</h1>
+    <h1>{{ $.Title }}<sup id="fnref:*"><a href="#fn:*">*</a></sup></h1>
       <div class="books">
         {{ range where .Site.RegularPages "Section" "reading" }}
         {{ if .Content }}
@@ -17,6 +17,8 @@
         </div>
         {{ end }}
       </div>
-  </main>
+      <hr>
+      <p id="fn:*"><strong>*</strong> The reason it appears I read an unreasonable number of books on the last day of 2018, 2019, and 2020 is because I didn't start closely tracking my reading until mid-2020. I only knew the years in which I read said books, so I gave them a date by which I could guarantee they were read.&nbsp;<a href="#fnref:*">↩︎</a></p>
+      </main>
 </body>
 </html>
