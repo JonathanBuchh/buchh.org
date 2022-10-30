@@ -315,13 +315,18 @@ I thought it was so cool that Bryan Stevenson was his law degree to fight to get
 In a sense, he saw every moment that he wasn&amp;rsquo;t helping someone in a critical condition to be wasted.
 My dad was inspired by Farmer, but I&amp;rsquo;m glad he&amp;rsquo;s been able to balance seeing patients and making time for family.&lt;/p></description><link>/reading/mountains-beyond-mountains/</link><pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate><guid>/reading/mountains-beyond-mountains/</guid></item><item><title>Shoe Dog</title><description/><link>/reading/shoe-dog/</link><pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate><guid>/reading/shoe-dog/</guid></item><item><title>The Language of God</title><description/><link>/reading/the-language-of-god/</link><pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate><guid>/reading/the-language-of-god/</guid></item><item><title>About</title><description>&lt;p>Hi, I&amp;rsquo;m Jonathan Buchholz, a senior at Thomas Jefferson High School for Science
 and Technology.&lt;/p>
+&lt;h2 id="why-does-this-site-look-so-boring">Why does this site look so boring?&lt;/h2>
+&lt;p>Simplicity and speed considerations dictated the design of this site.
+Plus, I like the minimalist look ;)&lt;/p>
 &lt;h2 id="colophon">Colophon&lt;/h2>
 &lt;p>This website uses &lt;a href="https://gohugo.io" target="_blank" rel="noopener">Hugo&lt;/a> as a static site generator and is hosted by &lt;a href="https://pages.github.com" target="_blank" rel="noopener">GitHub
-pages&lt;/a> for free. I have a more detailed description of my setup on my website&amp;rsquo;s
+pages&lt;/a> for free.
+I have a more detailed description of my setup on my website&amp;rsquo;s
 &lt;a href="https://github.com/JonathanBuchh/buchh.org#readme" target="_blank" rel="noopener">&lt;code>README.md&lt;/code>&lt;/a>.&lt;/p>
 &lt;h2 id="disclaimer">Disclaimer&lt;/h2>
 &lt;p>My opinions change over time, so something on this site may not represent my
-current views. Additionally, I am not a subject matter expert in any subject, so
+current views.
+Additionally, I am not a subject matter expert in any subject, so
 take everything with a grain of salt.&lt;/p></description><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid></item><item><title>Projects</title><description>&lt;ul>
 &lt;li>&lt;a href="https://willston.org" target="_blank" rel="noopener">willston.org&lt;/a>: A coding bootcamp at the Willston
 Multicultural Center for students might otherwise not have access to computer
