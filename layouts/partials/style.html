@@ -1,0 +1,118 @@
+<style>
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Segoe UI, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+  overflow-y: scroll;
+}
+.limiter, main {
+  max-width: 640px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #000;
+}
+h1 a, h2 a, h3 a {
+  text-decoration: none;
+}
+h1 a:hover, h2 a:hover, h3 a:hover {
+  text-decoration: underline;
+}
+.subtitle {
+  font-weight: normal;
+}
+h1:first-child {
+  margin-top: 0;
+}
+h1 small {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 5px;
+}
+h1, h2, h3 {
+  margin-bottom: 0.5rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+h1 {
+  font-size: 32px;
+  letter-spacing: 0.004em;
+}
+h2, h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.009em;
+}
+h3 {
+  font-size: 1.25rem;
+}
+code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  overflow: auto;
+}
+.books {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: 1fr 0.75fr min-content 70px;
+}
+.books > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.books time {
+    padding-right: 0.25em;
+    font-variant-numeric: tabular-nums;
+    white-space: pre;
+}
+.books a, .writing a {
+  font-weight: 500;
+}
+.star {
+  width: 13px;
+  height: 12px;
+  display: inline-block;
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuMzA5IDkuMjJMMi40MDkgMTJsMS40NC00LjU2N0wwIDQuNTgzbDQuNzg4LS4wNDJMNi4zMDggMCA3LjgzIDQuNTRsNC43ODkuMDQ0LTMuODUgMi44NDlMMTAuMjA5IDEyeiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+");
+}
+@media screen and (prefers-color-scheme: dark) {
+  a {
+    color: #fff;
+  }
+  .star {
+    filter: invert(1);
+  }
+}
+@media screen and (min-width:1075px) {
+  nav {
+    position: absolute;
+    right: 50%;
+    margin-right: 340px !important;
+  }
+  nav hr {
+    display: none;
+  }
+}
+@media screen and (max-width:640px) {
+  .limiter, main {
+      width: auto;
+      padding: 0;
+  }
+  body {
+      padding: 0;
+  }
+  .books {
+      grid-template-columns: 1fr;
+      grid-row-gap: 0;
+  }
+  .books div {
+      white-space: normal;
+  }
+  .books div:nth-child(4n) {
+      padding-bottom: 20px;
+  }
+}
+</style>
