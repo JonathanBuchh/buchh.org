@@ -4,7 +4,6 @@
     <main>
         <h1><em>{{ $.Title }}</em></h1>
         <p><small>I read <em>{{ $.Title }}</em> by {{ .Params.Author }} on {{.Date.Format "January 2, 2006"}}</small></p>
-    <div class="star" style="display:inline-block;background-size:15px 14px;height:14px;width:{{mul 15 .Params.Rating }}px"></div>
     {{.Content}}
     <hr>
     {{ partial "footer.html" . }}

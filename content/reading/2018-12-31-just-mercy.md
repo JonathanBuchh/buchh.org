@@ -2,7 +2,6 @@
 title: Just Mercy
 author: Bryan Stevenson
 date: 2018-12-31
-rating: 5
 url: /reading/just-mercy
 ---
 This book was one of the best I've ever read and the movie doesn't compare.

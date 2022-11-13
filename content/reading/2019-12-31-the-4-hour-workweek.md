@@ -2,7 +2,6 @@
 title: The 4-Hour Workweek
 author: Tim Ferriss
 date: 2019-12-31
-rating: 2
 url: /reading/the-4-hour-workweek
 ---
 I think this book was revolutionary for its time, but I didn't really like it.

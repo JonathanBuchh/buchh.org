@@ -2,7 +2,6 @@
 title: From Paycheck to Purpose
 author: Ken Coleman
 date: 2022-09-04
-rating: 2
 url: /reading/from-paycheck-to-purpose
 ---
 I've been on a Dave Ramsey kick recently and have heard Ken Coleman co-host on The Ramsey Show several times, so I thought I would give this book a shot—even though I am far from the target audience.

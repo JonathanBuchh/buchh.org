@@ -57,7 +57,7 @@ code {
   display: grid;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
-  grid-template-columns: 1fr 0.75fr min-content 70px;
+  grid-template-columns: 1fr 0.45fr min-content;
 }
 .books > div {
     white-space: nowrap;
@@ -72,18 +72,9 @@ code {
 .books a, .writing a {
   font-weight: 500;
 }
-.star {
-  width: 13px;
-  height: 12px;
-  display: inline-block;
-  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuMzA5IDkuMjJMMi40MDkgMTJsMS40NC00LjU2N0wwIDQuNTgzbDQuNzg4LS4wNDJMNi4zMDggMCA3LjgzIDQuNTRsNC43ODkuMDQ0LTMuODUgMi44NDlMMTAuMjA5IDEyeiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+");
-}
 @media screen and (prefers-color-scheme: dark) {
   a {
     color: #fff;
-  }
-  .star {
-    filter: invert(1);
   }
 }
 @media screen and (min-width:1075px) {
@@ -111,7 +102,7 @@ code {
   .books div {
       white-space: normal;
   }
-  .books div:nth-child(4n) {
+  .books time:not(:last-child) {
       padding-bottom: 20px;
   }
 }

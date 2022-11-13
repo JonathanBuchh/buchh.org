@@ -2,7 +2,6 @@
 title: Die With Zero
 author: Bill Perkins
 date: 2022-09-02
-rating: 5
 url: /reading/die-with-zero
 ---
 I read this book just after being introduced to [Dave Ramsey's 7 Baby Steps](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps), which for their obvious flaws, have helped many people climb out of debt.

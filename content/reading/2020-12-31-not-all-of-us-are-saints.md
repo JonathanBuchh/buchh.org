@@ -2,7 +2,6 @@
 title: Not All of Us Are Saints
 author: David Hilfiker
 date: 2020-12-31
-rating: 5
 url: /reading/not-all-of-us-are-saints
 ---
 This was particularly interesting to read because David Hilfiker gives insight into the creation of my dad's place of work.
