@@ -1,2 +1,4 @@
+baseURL = 'https://buchh.org'
+
 [markup.goldmark.renderer]
   unsafe = true
