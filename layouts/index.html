@@ -5,7 +5,7 @@
       <h1>Jonathan Buchholz</h1>
       <h2><a href="/reading">Reading</a></h2>
       <div class="books">
-      {{ range first 5 (where .Site.RegularPages "Section" "reading")}}
+      {{ range first 15 (where .Site.RegularPages "Section" "reading")}}
         {{ if .Content }}
         <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         {{ else }}
@@ -15,13 +15,6 @@
       <time>{{ .Date.Format "2006-01-02" }}</time>
       {{ end }}
       <p style="margin: 0;"><a href="/reading">See more...</a></p>
-      </div>
-      <h2><a href="/writing">Writing</a></h2>
-      <div class="writing">
-        {{ range where .Site.RegularPages "Section" "posts" }}
-        <p style="margin-bottom: 0">{{.Date.Format "January 2, 2006"}}</p>
-        <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
-        {{ end }}
       </div>
       <hr>
       {{ partial "footer.html" . }}
