@@ -3,8 +3,7 @@ title: About
 description: About Jonathan Buchholz.
 ---
 
-Hi, I'm Jonathan Buchholz, a senior at Thomas Jefferson High School for Science
-and Technology.
+Hi, I'm Jonathan Buchholz, a freshman at Middlebury College.
 
 ## Why does this site look so boring?
 
