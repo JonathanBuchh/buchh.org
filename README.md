@@ -24,3 +24,8 @@ I convert images to `.webp` because they weigh less than `.jpg` images and make
 them as small as possible (without Lighthouse getting mad at me). I use
 [ImageMagick](https://imagemagick.org/) with the following command: `convert
 image.jpg -resize x400 image.webp`
+
+## Resume
+
+1. Install LaTeX on MacOS: `brew install mactex`
+2. Compile: `make`
