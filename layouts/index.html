@@ -6,11 +6,7 @@
       <h2><a href="/reading">Reading</a></h2>
       <div class="books">
       {{ range first 15 (where .Site.RegularPages "Section" "reading")}}
-        {{ if .Content }}
         <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-        {{ else }}
-        <div style="font-weight: 500">{{ .Title }}</div>
-      {{ end }}
       <div>{{ .Params.Author }}</div>
       <time>{{ .Date.Format "2006-01-02" }}</time>
       {{ end }}
