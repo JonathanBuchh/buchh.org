@@ -1,6 +1,6 @@
 ---
 title: Mere Christianity
-author: C.S. Lewis
+author: C. S. Lewis
 date: 2022-10-22
 url: /reading/mere-christianity
 ---
