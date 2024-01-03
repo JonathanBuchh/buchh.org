@@ -2,12 +2,12 @@
 title: Projects
 description: Jonathan Buchholz's Projects
 ---
+## Current
 
-- [Willston Web](https://willston.org): A coding bootcamp ([curriculum](https://willston.org/curriculum))
+- [Psalm 119](https://buchh.fun/119): A simple PWA that cycles through sections of Psalm 119 in order, daily, starting on the first day of the current year
 - [Random Proverb](https://buchh.fun/proverb): Refresh the page for a random Proverb from the Bible
 - [boatavg](https://buchh.fun/boatavg): Easily calculate your crew's average 2k
-- [rowtj.github.io](https://rowtj.github.io): Offseason rowing opportunities,
-  training plans, summer competitions, and core and bodyweight workouts for TJ
-  Crew rowers, made by TJ Crew rowers. Instead of spamming our official chats,
-  we can instead send a link to this site that contains all relevant
-  information.
+
+## Previous
+
+- [Willston Web](https://willston.org): A one week coding bootcamp ([curriculum](https://willston.org/curriculum))
