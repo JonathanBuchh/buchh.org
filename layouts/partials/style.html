@@ -101,8 +101,12 @@ hr {
   .books div {
       white-space: normal;
   }
-  .books time:not(:last-child) {
-      padding-bottom: 20px;
+  .books .title:not(:first-of-type) {
+      padding-top: 16px;
+  }
+  .books time:not(:last-of-type) {
+      border-bottom: 1px solid;
+      padding-bottom: 16px;
   }
 }
 </style>

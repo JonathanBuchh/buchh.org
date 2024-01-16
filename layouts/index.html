@@ -7,16 +7,16 @@
       <div class="books">
       {{ range first 5 (where .Site.RegularPages "Section" "reading")}}
         {{ if .Content }}
-        <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+        <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         {{ else }}
-        <div style="font-weight: 500">{{ .Title }}</div>
+        <div style="font-weight: 500" class="title">{{ .Title }}</div>
       {{ end }}
       <div>{{ .Params.Author }}</div>
       <time>{{ .Date.Format "2006-01-02" }}</time>
       {{ end }}
-      <p style="margin: 0;"><a href="/reading">See more...</a></p>
       </div>
       <hr>
+      <p style="margin: 0;"><a href="/reading">See more...</a></p>
       {{ partial "footer.html" . }}
   </main>
 </body>

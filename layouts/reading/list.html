@@ -6,9 +6,9 @@
       <div class="books">
         {{ range where .Site.RegularPages "Section" "reading" }}
         {{ if .Content }}
-        <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+        <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         {{ else }}
-        <div style="font-weight: 500">{{ .Title }}</div>
+        <div style="font-weight: 500" class="title">{{ .Title }}</div>
         {{ end }}
         <div>{{ .Params.Author }}</div>
         <time>{{ .Date.Format "2006-01-02" }}</time>
