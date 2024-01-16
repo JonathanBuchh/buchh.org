@@ -3,7 +3,11 @@ title: About
 description: About Jonathan Buchholz.
 ---
 
-Hi, I'm Jonathan Buchholz, a freshman at Middlebury College.
+## Blogroll
+
+- [Cortex](https://www.relay.fm/cortex)
+- [Lex Fridman](https://lexfridman.com/podcast)
+- [The Deep Life with Cal Newport](https://www.thedeeplife.com)
 
 ## Why does this site look so boring?
 
@@ -12,11 +16,8 @@ Plus, I like the brutalist look ;)
 
 ## Colophon
 
-This website uses [Hugo] as a static site generator and is hosted by [GitHub
-pages] for free.
-I have a more detailed description of my setup on my website's
-[`README.md`].
+This website uses [Hugo], a static site generator, and is hosted by [GitHub pages] for free. If you are interested, you can take a look at the [source code].
 
 [Hugo]: https://gohugo.io
 [GitHub pages]: https://pages.github.com
-[`README.md`]: https://github.com/JonathanBuchh/buchh.org#readme
+[source code]: https://github.com/JonathanBuchh/buchh.org
