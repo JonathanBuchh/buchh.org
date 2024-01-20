@@ -6,6 +6,14 @@ My name is Jonathan Buchholz and I am a first-year student at Middlebury College
 
 Send me something interesting (books, articles, websites) at [interesting@buchh.org](mailto:interesting@buchh.org)!
 
+## Reading List
+
+- I am currently reading _To Be a Christian_ by J.I. Packer and Joel Scandrett
+- Here's a shortlist of what I'm considering reading next:
+    - _Disciplines of a Godly Man_ by R. Kent Hughes
+    - _Life of the Beloved_ by Henri Nouwen
+    - _The Meaning of Marriage_ by Tim Keller
+
 ## Websites I Find Interesting
 
 - [Cortex](https://www.relay.fm/cortex)
