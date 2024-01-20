@@ -4,14 +4,18 @@
   <main>
     <h1>{{ $.Title }}</h1>
       <div class="books">
+	<div class="label"><strong>Title</strong></div>
+        <div class="label"><strong>Author</strong></div>
+        <div class="label"><strong>Date Read</strong></div>
         {{ range where .Site.RegularPages "Section" "reading" }}
         {{ if .Content }}
         <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
         {{ else }}
         <div style="font-weight: 500" class="title">{{ .Title }}</div>
         {{ end }}
-        <div>{{ .Params.Author }}</div>
-        <time>{{ .Date.Format "2006-01-02" }}</time>
+	<div class="author">{{ .Params.Author }}</div>
+        <time class="iso-8601">{{ .Date.Format "2006-01-02" }}</time>
+        <time class="natural-language">{{.Date.Format "January 2, 2006"}}</time>
         {{ end }}
       </div>
       <hr>

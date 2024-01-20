@@ -5,15 +5,19 @@
       <h1>Jonathan Buchholz</h1>
       <h2><a href="/reading">Reading</a></h2>
       <div class="books">
-      {{ range first 5 (where .Site.RegularPages "Section" "reading")}}
-        {{ if .Content }}
-        <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-        {{ else }}
-        <div style="font-weight: 500" class="title">{{ .Title }}</div>
-      {{ end }}
-      <div>{{ .Params.Author }}</div>
-      <time>{{ .Date.Format "2006-01-02" }}</time>
-      {{ end }}
+        <div class="label"><strong>Title</strong></div>
+        <div class="label"><strong>Author</strong></div>
+        <div class="label"><strong>Date Read</strong></div>
+        {{ range first 5 (where .Site.RegularPages "Section" "reading")}}
+          {{ if .Content }}
+          <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+          {{ else }}
+          <div style="font-weight: 500" class="title">{{ .Title }}</div>
+        {{ end }}
+        <div class="author">{{ .Params.Author }}</div>
+        <time class="iso-8601">{{ .Date.Format "2006-01-02" }}</time>
+        <time class="natural-language">{{.Date.Format "January 2, 2006"}}</time>
+        {{ end }}
       </div>
       <hr>
       <p style="margin: 0;"><a href="/reading">See more...</a></p>
