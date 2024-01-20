@@ -2,22 +2,21 @@
 title: About
 description: About Jonathan Buchholz.
 ---
+My name is Jonathan Buchholz and I am a first-year student at Middlebury College. I like keeping this website alive because it motivates me to read.
 
-## Blogroll
+Send me something interesting (books, articles, websites) at [interesting@buchh.org](mailto:interesting@buchh.org)!
+
+## Websites I Find Interesting
 
 - [Cortex](https://www.relay.fm/cortex)
 - [Lex Fridman](https://lexfridman.com/podcast)
+- [The Center for Preventative Action's Global Conflict Tracker](https://www.cfr.org/global-conflict-tracker)
 - [The Deep Life with Cal Newport](https://www.thedeeplife.com)
+- [The Pudding](https://pudding.cool)
 
 ## Why does this site look so boring?
 
 Simplicity and speed considerations dictated the design of this site.
 Plus, I like the brutalist look ;)
 
-## Colophon
-
-This website uses [Hugo], a static site generator, and is hosted by [GitHub pages] for free. If you are interested, you can take a look at the [source code].
-
-[Hugo]: https://gohugo.io
-[GitHub pages]: https://pages.github.com
-[source code]: https://github.com/JonathanBuchh/buchh.org
+If you are interested, you can take a look at the [source code](https://github.com/JonathanBuchh/buchh.org).
