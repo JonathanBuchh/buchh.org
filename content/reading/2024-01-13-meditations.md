@@ -1,6 +1,7 @@
 ---
 title: Meditations
-author: Marcus Aurelius, translated by Gregory Hays
+author: Marcus Aurelius
+addtional-author: translated by Gregory Hays
 date: 2024-01-10
 url: /reading/meditations
 ---
