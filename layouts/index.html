@@ -13,8 +13,12 @@
           <div class="title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
           {{ else }}
           <div style="font-weight: 500" class="title">{{ .Title }}</div>
-        {{ end }}
-        <div class="author">{{ .Params.Author }}</div>
+          {{ end }}
+	  {{ if .Params.all_authors }}
+	  <div class="author"><span title="{{ .Params.all_authors }}">{{ .Params.Author }}</span></div>
+	  {{ else }}
+          <div class="author">{{ .Params.Author }}</div>
+	  {{ end }}
         <time class="iso-8601">{{ .Date.Format "2006-01-02" }}</time>
         <time class="natural-language">{{.Date.Format "January 2, 2006"}}</time>
         {{ end }}
