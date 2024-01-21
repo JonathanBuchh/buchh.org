@@ -1,7 +1,7 @@
 ---
 title: The Three Body Problem
 author: Liu Cixin
-additional-author: translated by Ken Liu
+other-authors: translated by Ken Liu
 date: 2023-11-24
 url: /reading/the-three-body-problem
 ---
