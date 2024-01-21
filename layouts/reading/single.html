@@ -3,7 +3,11 @@
     {{ partial "nav.html" . }}
     <main>
         <h1><em>{{ $.Title }}</em></h1>
+        {{ if .Params.all_authors }}
+        <p><small>I read <em>{{ $.Title }}</em> by {{ .Params.all_authors }} on {{.Date.Format "January 2, 2006"}}</small></p>
+	{{ else }}
         <p><small>I read <em>{{ $.Title }}</em> by {{ .Params.Author }} on {{.Date.Format "January 2, 2006"}}</small></p>
+	{{ end }}
     {{.Content}}
     <hr>
     {{ partial "footer.html" . }}
