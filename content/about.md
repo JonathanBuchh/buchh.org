@@ -8,9 +8,8 @@ Send me something interesting (books, articles, websites) at [interesting@buchh.
 
 ## Reading List
 
-- I am currently reading _To Be a Christian_ by J.I. Packer and Joel Scandrett
+- I am currently reading _Disciplines of a Godly Man_ by R. Kent Hughes
 - Here's a shortlist of what I'm considering reading next:
-    - _Disciplines of a Godly Man_ by R. Kent Hughes
     - _Life of the Beloved_ by Henri Nouwen
     - _The Meaning of Marriage_ by Tim Keller
 
