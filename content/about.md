@@ -8,7 +8,7 @@ Send me something interesting (books, articles, websites) at [interesting@buchh.
 
 ## Reading List
 
-- I am currently reading _Disciplines of a Godly Man_ by R. Kent Hughes, _Life of the Beloved_ by Henri Nouwen, and _Mere Christianity_ by C. S. Lewis
+- I am currently reading _Disciplines of a Godly Man_ by R. Kent Hughes and _Life of the Beloved_ by Henri Nouwen
 - Here's a shortlist of what I'm considering reading next:
     - _The Meaning of Marriage_ by Tim Keller
 - Here's what I'm considering reading in the longer-term:
