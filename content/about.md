@@ -10,6 +10,7 @@ Send me something interesting (books, articles, websites) at [interesting@buchh.
 
 - I am currently reading _Disciplines of a Godly Man_ by R. Kent Hughes and _Life of the Beloved_ by Henri Nouwen
 - Here's a shortlist of what I'm considering reading next:
+    - _Of Boys and Men_ by Richard V. Reeves
     - _The Meaning of Marriage_ by Tim Keller
 - Here's what I'm considering reading in the longer-term:
     - _Beloved_ by Toni Morrison
