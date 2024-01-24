@@ -8,7 +8,7 @@ Send me something interesting (books, articles, websites) at [interesting@buchh.
 
 ## Reading List
 
-- I am currently reading _Disciplines of a Godly Man_ by R. Kent Hughes and _Life of the Beloved_ by Henri Nouwen
+- I am currently reading _Gentle and Lowly_ by Dane C. Ortlund and _Life of the Beloved_ by Henri Nouwen
 - Here's a shortlist of what I'm considering reading next:
     - _Of Boys and Men_ by Richard V. Reeves
     - _The Meaning of Marriage_ by Tim Keller
