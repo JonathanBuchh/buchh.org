@@ -3,11 +3,19 @@
     {{ partial "nav.html" . }}
     <main>
         <h1><em>{{ $.Title }}</em></h1>
-        {{ if .Params.all_authors }}
-        <p><small>I read <em>{{ $.Title }}</em> by {{ .Params.all_authors }} on {{.Date.Format "January 2, 2006"}}</small></p>
+	{{ if .Params.author }}
+            {{ if .Params.all_authors }}
+            <p><small>I read <em>{{ $.Title }}</em> by {{ .Params.all_authors }} on {{.Date.Format "January 2, 2006"}}</small></p>
+	    {{ else }}
+            <p><small>I read <em>{{ $.Title }}</em> by {{ .Params.Author }} on {{.Date.Format "January 2, 2006"}}</small></p>
+	    {{ end }}
 	{{ else }}
-        <p><small>I read <em>{{ $.Title }}</em> by {{ .Params.Author }} on {{.Date.Format "January 2, 2006"}}</small></p>
-	{{ end }}
+            {{ if .Params.all_authors }}
+            <p><small>I read <em>{{ $.Title }}</em> on {{.Date.Format "January 2, 2006"}}</small></p>
+	    {{ else }}
+            <p><small>I read <em>{{ $.Title }}</em> on {{.Date.Format "January 2, 2006"}}</small></p>
+	    {{ end }}
+        {{ end }}
     {{.Content}}
     <hr>
     {{ partial "footer.html" . }}
