@@ -11,9 +11,6 @@
     {{ end }}
     {{ end }}
     </div>
-    {{ if eq .Title "About" }}
-    <small><time datetime="{{ .Page.Lastmod.Format "Mon Jan 10 17:13:38 2020 -0700" }}">This page was last updated on <strong>{{ $.Page.Lastmod.Format "January 02, 2006" }}</strong></time></small>
-    {{ end }}
     {{.Content}}
     <hr>
     {{ partial "footer.html" . }}

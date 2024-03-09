@@ -2,18 +2,9 @@
 title: About
 description: About Jonathan Buchholz.
 ---
-My name is Jonathan Buchholz and I am a first-year student at Middlebury College. I like keeping this website alive because it motivates me to read.
+My name is Jonathan Buchholz and I am a first-year student at Middlebury College.
 
 Send me something interesting (books, articles, websites) at [interesting@buchh.org](mailto:interesting@buchh.org)!
-
-## Reading List
-
-- I am currently reading _Beloved_ by Toni Morrison and _Life of the Beloved_ by Henri Nouwen
-- Here's a shortlist of what I'm considering reading next:
-    - _Liturgy of the Ordinary_ by Tish Harrison Warren
-    - _Of Boys and Men_ by Richard V. Reeves
-- Here's what I'm considering reading in the longer-term:
-    - _The Satanic Verses_ by Salman Rushdie
 
 ## Websites I Find Interesting
 
