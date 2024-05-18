@@ -4,7 +4,6 @@
         <li><a href="/">Home</a>{{ if .IsHome}}←{{ end }}</li>
         <li><a href="/about/">About</a>{{ if eq .Title "About" }}←{{ end }}</li>
         <li><a href="/reading/">Reading</a>{{ if or (eq .Title "Reading Log") (eq .Section "reading")}}←{{ end }}</li>
-        <li><a href="/projects/">Projects</a>{{ if eq .Title "Projects" }}←{{ end }}</li>
     </ul>
     <hr>
 </nav>
