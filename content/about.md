@@ -14,6 +14,8 @@ Here are some of my affections:
     - Thank you, Middlebury College, for giving us access to The Economist. "The world in brief" blows Wikipedia's [current events portal](https://en.wikipedia.org/wiki/Portal:Current_events) out of the water
 - [The Pudding](https://pudding.cool)
     - It seems that every time I visit **pudding.cool**, there's an incredible new interactive web-based story with data that inspires me to be more creative. It's hard to explain what they do — maybe [check out the site](https://pudding.cool)?!
+- [Strava](https://www.strava.com/features)
+    - Social media that makes my life better, not worse, pushing me to become a better endurance athlete
 
 ## Why does this site look so boring?
 
