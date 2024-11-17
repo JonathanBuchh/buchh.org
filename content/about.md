@@ -2,9 +2,11 @@
 title: About
 description: About Jonathan Buchholz.
 ---
+<img src="/headshot.jpg">
+
 My name is Jonathan Buchholz and I'm a sophomore at Middlebury College studying International Politics & Economics. I'm on a quest to understand the world a little more fully with each passing day, so if you have a lead on something you think I might find interesting (books, articles, websites, movies, etc.), drop me a line at [interesting@buchh.org](mailto:interesting@buchh.org)!
 
-I'm also currently looking for summer 2025 management consulting opportunities. [Connect on LinkedIn](https://www.linkedin.com/in/jonathanbuchh/)?
+I'm also currently looking for summer 2025 internship opportunities. [Connect on LinkedIn](https://www.linkedin.com/in/jonathanbuchh/)?
 
 Here are some of my affections:
 
