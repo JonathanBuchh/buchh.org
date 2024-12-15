@@ -11,9 +11,7 @@ Here are some of my affections:
 - [The Deep Life](https://www.thedeeplife.com)
     - Cal Newport reminds me to live and work more deeply and gives practical examples on how implement his advice. I recommend reading his books — they're a refreshing take on "productivity."
 - [The Economist](https://www.economist.com)
-    - Thank you, Middlebury College, for giving us access to The Economist. "The world in brief" blows Wikipedia's [current events portal](https://en.wikipedia.org/wiki/Portal:Current_events) out of the water
-- [The Pudding](https://pudding.cool)
-    - It seems that every time I visit **pudding.cool**, there's an incredible new interactive web-based story with data that inspires me to be more creative. It's hard to explain what they do — maybe [check out the site](https://pudding.cool)?!
+    - Thank you, Middlebury College, for giving us access to The Economist. "The world in brief" blows Wikipedia's [current events portal](https://en.wikipedia.org/wiki/Portal:Current_events) out of the water. [Espresso](https://www.economist.com/news/2024/09/03/espresso-our-daily-news-app-is-now-free-for-students) (which includes "The world in brief") is free for students!
 - [Strava](https://www.strava.com/features)
     - Social media that makes my life better, not worse, and pushes me to become a better endurance athlete
 
