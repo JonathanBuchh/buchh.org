@@ -1,6 +1,6 @@
 <style>
 body {
-  font-family: "Lucida Bright", Georgia, Times, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   padding: 20px;
   line-height: 1.6;
   overflow-y: scroll;
@@ -37,16 +37,19 @@ h1 small {
   font-size: 1rem;
   margin-top: 5px;
 }
-h1, h2, h3 {
+h1, h2, h3, .label {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 1;
-  margin-bottom: 0.5rem;
+  font-weight: normal;
   line-height: 1.25;
   border-bottom: 1px solid;
-
+  margin-bottom: 0;
 }
 h1::before {
-  content: "✱ "
+  content: "✱ ";
+  margin-bottom: 0.5rem;
+}
+p:has(small) {
+  margin-top: 0;
 }
 code {
   font-family: "SF Mono", Menlo, Consolas, monospace;
@@ -81,9 +84,27 @@ hr {
 }
 .label {
   border-bottom: 1px solid;
+  font-weight: bold;
 }
 [title] {
   border-bottom: 1px dotted;
+}
+.inline-image {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.inline-image img {
+  max-width: 175px;
+  height: 175px;
+  margin-top: 15px;
+  padding-top: 7px;
+}
+.inline-image p {
+  flex-grow: 1;
+  margin-top: 15px;
 }
 @media screen and (prefers-color-scheme: dark) {
   a {
@@ -105,11 +126,8 @@ hr {
   hr {
     background #000;
   }
-  img {
-    max-width: 175px;
-    float: left;
-    margin-right: 10px;
-    margin-top: 20px;
+  .inline-image {
+    flex-wrap: nowrap;
   }
 }
 @media screen and (max-width:700px) {
