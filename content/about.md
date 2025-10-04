@@ -10,12 +10,12 @@ My name is Jonathan Buchholz and I'm a junior at Middlebury College studying Int
 
 Here are some of my affections:
 
-- [The Deep Life](https://www.thedeeplife.com)
-    - Cal Newport reminds me to live and work more deeply and gives practical examples on how implement his advice. I recommend reading his books — they're a refreshing take on "productivity."
-- [The Economist](https://www.economist.com)
-    - Thank you, Middlebury College, for giving us access to The Economist. "The world in brief" blows Wikipedia's [current events portal](https://en.wikipedia.org/wiki/Portal:Current_events) out of the water. [Espresso](https://www.economist.com/news/2024/09/03/espresso-our-daily-news-app-is-now-free-for-students) (which includes "The world in brief") is free for students!
-- [Strava](https://www.strava.com/features)
-    - Social media that makes my life better, not worse, and pushes me to become a better endurance athlete
+- [Strava](https://www.strava.com)
+    - Social media that makes my life better, not worse.
+- [Semafor](https://www.semafor.com/)
+    - News how it should be.
+- [The Pudding](https://pudding.cool/)
+    - Analysis on social issues that displays data better than I have seen anywhere else.
 
 ## Why does this site look so boring?
 
